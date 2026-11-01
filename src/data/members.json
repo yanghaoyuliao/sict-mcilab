@@ -1,0 +1,428 @@
+[
+  {
+    "id": "bihui-yu",
+    "name": "Bihui Yu",
+    "nameZh": "于碧辉",
+    "group": "faculty",
+    "role": {
+      "zh": "研究员 · 博士生导师",
+      "en": "Research professor · PhD supervisor"
+    },
+    "interests": {
+      "zh": "大数据、多模态数据处理、人工智能",
+      "en": "Big data, multimodal data processing, artificial intelligence"
+    },
+    "bio": {
+      "zh": "中国科学院沈阳计算技术研究所研究员、博士生导师。研究领域包括大数据、人工智能、知识工程与多模态数据处理。",
+      "en": "Research professor and PhD supervisor at SICT, CAS. Research areas include big data, artificial intelligence, knowledge engineering, and multimodal data processing."
+    },
+    "email": "yubihui@sict.ac.cn",
+    "image": "images/people/bihui-yu.webp",
+    "homepage": "https://people.ucas.ac.cn/~0031932"
+  },
+  {
+    "id": "liping-bu",
+    "name": "Liping Bu",
+    "nameZh": "卜立平",
+    "group": "faculty",
+    "role": {
+      "zh": "副研究员 · 硕士生导师",
+      "en": "Associate research professor · Master’s supervisor"
+    },
+    "interests": {
+      "zh": "人工智能、知识工程",
+      "en": "Artificial intelligence, knowledge engineering"
+    },
+    "bio": {
+      "zh": "主要研究方向为人工智能、知识工程等。曾承担多项国家、省、市级科研项目的研发工作，相关成果已形成系列高水平学术论文，在国际顶级会议和高水平期刊发表，申请国家发明专利 8 项，获得软件著作权 6 项，具有丰富的科研工作经验。",
+      "en": "Research interests include artificial intelligence and knowledge engineering. Has undertaken research and development for multiple national, provincial, and municipal projects, with findings published at leading international conferences and in high-quality journals. Has applied for eight Chinese invention patents and obtained six software copyrights, with extensive research experience."
+    },
+    "email": "buliping@sict.ac.cn",
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "jingxuan-wei",
+    "name": "Jingxuan Wei",
+    "nameZh": "魏靖烜",
+    "group": "phd",
+    "role": {
+      "zh": "博士研究生",
+      "en": "PhD student"
+    },
+    "interests": {
+      "zh": "多模态推理、机器翻译、科学智能",
+      "en": "Multimodal reasoning, machine translation, AI for science"
+    },
+    "image": "images/people/jingxuan-wei.webp",
+    "homepage": "https://dracoxa.github.io/author/jingxuan-wei/"
+  },
+  {
+    "id": "linzhuang-sun",
+    "name": "Linzhuang Sun",
+    "nameZh": "孙林壮",
+    "group": "phd",
+    "role": {
+      "zh": "博士研究生",
+      "en": "PhD student"
+    },
+    "interests": {
+      "zh": "大语言模型、多模态大模型",
+      "en": "Large language models, multimodal large language models"
+    },
+    "image": "images/people/linzhuang-sun.webp",
+    "homepage": "https://dracoxa.github.io/author/linzhuang-sun/"
+  },
+  {
+    "id": "sibo-zhang",
+    "name": "Sibo Zhang",
+    "nameZh": "张思博",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "类脑智能",
+      "en": "Brain-inspired intelligence"
+    },
+    "image": "images/people/sibo-zhang.webp",
+    "homepage": "https://dracoxa.github.io/author/sibo-zhang/"
+  },
+  {
+    "id": "zhengbing-yao",
+    "name": "Zhengbing Yao",
+    "nameZh": "姚征兵",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态图像合成",
+      "en": "Multimodal image synthesis"
+    },
+    "image": "images/people/zhengbing-yao.webp",
+    "homepage": "https://dracoxa.github.io/author/zhengbing-yao/"
+  },
+  {
+    "id": "gaowei-wu",
+    "name": "Gaowei Wu",
+    "nameZh": "伍高巍",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "智能体、检索增强生成",
+      "en": "Agents, retrieval-augmented generation"
+    },
+    "image": null,
+    "homepage": "https://dracoxa.github.io/author/gaowei-wu/"
+  },
+  {
+    "id": "mingfei-jin",
+    "name": "Mingfei Jin",
+    "nameZh": "金明飞",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "大语言模型、强化学习、推理链",
+      "en": "Large language models, reinforcement learning, reasoning chains"
+    },
+    "image": null,
+    "homepage": "https://dracoxa.github.io/author/mingfei-jin/"
+  },
+  {
+    "id": "caijun-jia",
+    "name": "Caijun Jia",
+    "nameZh": "贾彩军",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "类脑智能",
+      "en": "Brain-inspired intelligence"
+    },
+    "image": "images/people/caijun-jia.webp",
+    "homepage": "https://dracoxa.github.io/author/caijun-jia/"
+  },
+  {
+    "id": "dawei-liu",
+    "name": "Dawei Liu",
+    "nameZh": "刘大伟",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态生成、数字人",
+      "en": "Multimodal generation, digital humans"
+    },
+    "image": "images/people/dawei-liu.webp",
+    "homepage": "https://dracoxa.github.io/author/dawei-liu/"
+  },
+  {
+    "id": "qi-chen",
+    "name": "Qi Chen",
+    "nameZh": "陈奇",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
+    },
+    "image": null,
+    "homepage": "https://dracoxa.github.io/author/qi-chen/"
+  },
+  {
+    "id": "honghao-he",
+    "name": "Honghao He",
+    "nameZh": "贺宏浩",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、AI4S",
+      "en": "Multimodal large language models, AI for science"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "zheng-sun",
+    "name": "Zheng Sun",
+    "nameZh": "孙正",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型",
+      "en": "Multimodal large language models"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "haiguang-wang",
+    "name": "Haiguang Wang",
+    "nameZh": "王海广",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型",
+      "en": "Multimodal large language models"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "xi-bai",
+    "name": "Xi Bai",
+    "nameZh": "白西",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、强化学习",
+      "en": "Multimodal large language models, reinforcement learning"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "zhibiao-wang",
+    "name": "Zhibiao Wang",
+    "nameZh": "王志彪",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型",
+      "en": "Multimodal large language models"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "yanghaoyu-liao",
+    "name": "Yanghaoyu Liao",
+    "nameZh": "廖旸皓煜",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、强化学习",
+      "en": "Multimodal large language models, reinforcement learning"
+    },
+    "image": "images/people/yanghaoyu-liao.webp",
+    "homepage": null
+  },
+  {
+    "id": "yuhang-xu",
+    "name": "Yuhang Xu",
+    "nameZh": "徐宇航",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "xinglong-xu",
+    "name": "Xinglong Xu",
+    "nameZh": "许兴龙",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
+    },
+    "image": "images/people/xinglong-xu.webp",
+    "homepage": null
+  },
+  {
+    "id": "jie-dong",
+    "name": "Jie Dong",
+    "nameZh": "董洁",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
+    },
+    "image": null,
+    "homepage": null
+  },
+  {
+    "id": "junjie-jiang",
+    "name": "Junjie Jiang",
+    "nameZh": "蒋俊杰",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "计算机软件与应用、智能体",
+      "en": "Computer software and applications, agents"
+    },
+    "image": "images/people/junjie-jiang.webp",
+    "homepage": null
+  },
+  {
+    "id": "lejia-wang",
+    "name": "Lejia Wang",
+    "nameZh": null,
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "计算机技术",
+      "en": "Computer technology"
+    },
+    "image": "images/people/lejia-wang.webp",
+    "homepage": null
+  },
+  {
+    "id": "enchao-li",
+    "name": "Enchao Li",
+    "nameZh": "李恩超",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "计算机技术",
+      "en": "Computer technology"
+    },
+    "image": "images/people/enchao-li.webp",
+    "homepage": null
+  },
+  {
+    "id": "xinping-sun",
+    "name": "Xinping Sun",
+    "nameZh": "孙心萍",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "计算机技术",
+      "en": "Computer technology"
+    },
+    "image": "images/people/xinping-sun.webp",
+    "homepage": null
+  },
+  {
+    "id": "xinyue-wang",
+    "name": "Xinyue Wang",
+    "nameZh": "王杏月",
+    "group": "phd",
+    "role": {
+      "zh": "博士研究生",
+      "en": "PhD student"
+    },
+    "interests": {
+      "zh": "多模态大模型、AI4S",
+      "en": "Multimodal large language models, AI for science"
+    },
+    "image": "images/people/xinyue-wang.webp",
+    "homepage": null
+  },
+  {
+    "id": "hexuan-jin",
+    "name": "Hexuan Jin",
+    "nameZh": "靳赫煊",
+    "group": "phd",
+    "role": {
+      "zh": "博士研究生",
+      "en": "PhD student"
+    },
+    "interests": {
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
+    },
+    "image": null,
+    "homepage": null
+  }
+]

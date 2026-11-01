@@ -1,0 +1,30 @@
+{
+  "name": "mci-lab-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run check && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "tsc -b && npm run check:content",
+    "check:content": "node scripts/verify_content.mjs",
+    "format": "prettier --write src scripts/verify_content.mjs README.md docs/*.md vite.config.ts",
+    "format:check": "prettier --check src scripts/verify_content.mjs README.md docs/*.md vite.config.ts",
+    "package:review": "npm run build && python3 scripts/package_review.py"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.9.10",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.qa/
+*.tsbuildinfo
+.venv/
+__pycache__/
+交付/
+# Local originals and snapshots. Track curated public/ media and manifests.
+archive/
+materials/reference/
+materials/incoming/

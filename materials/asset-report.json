@@ -1,0 +1,182 @@
+[
+  {
+    "source": "materials/incoming/2026-11-01/images/xingyue-wang.webp",
+    "target": "images/people/xinyue-wang.webp",
+    "sourceSha256": "4ab4afca1a9380603ad480e123280c29262911757dec48a7db4836d044cf700c",
+    "publishedBytes": 57321
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/linzhuang-sun.webp",
+    "target": "images/people/linzhuang-sun.webp",
+    "sourceSha256": "2e87c228b178b47ba8bb89d763cb01ed01cb5cd33c0aefdd8001ec207ffa826e",
+    "publishedBytes": 21188
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/news-acmmm.webp",
+    "target": "images/news/legacy/news-acmmm.webp",
+    "sourceSha256": "700c2897aa0146e0bfd5a53c54114361d2e81899176829e5e6034cbf2dc1ad25",
+    "publishedBytes": 56828
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/lejia-wang.webp",
+    "target": "images/people/lejia-wang.webp",
+    "sourceSha256": "5044c25259b03d9987152ab0cf4ea6bba1329febb974687e7aefe0163d71aef1",
+    "publishedBytes": 149003
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/news-acl.webp",
+    "target": "images/news/legacy/news-acl.webp",
+    "sourceSha256": "33fa725effc0ad11a56f66dda04528694c11d8719c68a1dd873095e0ebee0971",
+    "publishedBytes": 147426
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/enchao-li.webp",
+    "target": "images/people/enchao-li.webp",
+    "sourceSha256": "4924fd264212016387ec9f6050d576117992ca9cbaeea4c69e307b4dd979407f",
+    "publishedBytes": 23147
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/xinping-sun.webp",
+    "target": "images/people/xinping-sun.webp",
+    "sourceSha256": "6a298350f712bb35a5b8060940a742d86037960d1354dae9177bea6eccdba0ea",
+    "publishedBytes": 3293432
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/junjie-jiang.webp",
+    "target": "images/people/junjie-jiang.webp",
+    "sourceSha256": "64caf52f057fddd0374a294ab66afe4285ec2ba2aa7bbc3bf8fec005ec5540c7",
+    "publishedBytes": 43455
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/dawei-liu.webp",
+    "target": "images/people/dawei-liu.webp",
+    "sourceSha256": "0b88c5765e2b9ebca64bacc9e5a67bcf3a3aeb646e5538db8d131936c913f658",
+    "publishedBytes": 11930
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/lab-group.webp",
+    "target": "images/lab/group.webp",
+    "sourceSha256": "c55026ab5fec67dca8cb45397a173320612d46c6872b66f09fea4e8e83347261",
+    "publishedBytes": 231438
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/sibo-zhang.webp",
+    "target": "images/people/sibo-zhang.webp",
+    "sourceSha256": "001142c5c649b6043af1006500d0649d4d2e8b6ac2afa50b3fc397de1ac08aac",
+    "publishedBytes": 18068
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/news-cvpr.webp",
+    "target": "images/news/legacy/news-cvpr.webp",
+    "sourceSha256": "ccc761d755a2a922c5de67560a439e858013b671eb39582d92c2810646ae0e50",
+    "publishedBytes": 119514
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/caijun-jia.webp",
+    "target": "images/people/caijun-jia.webp",
+    "sourceSha256": "31c9ec067a0bf4bc22263e2ff8a6e010bb4b6705a1a845db83ed6a93850c5c58",
+    "publishedBytes": 9426
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/zhengbing-yao.webp",
+    "target": "images/people/zhengbing-yao.webp",
+    "sourceSha256": "87d1e1db62f61fb5c69379d4a18513206fe1ac8a01b6104249509bbcf1d6e8ce",
+    "publishedBytes": 13692
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/jingxuan-wei.webp",
+    "target": "images/people/jingxuan-wei.webp",
+    "sourceSha256": "f7e73e71191e5b3dd844738cf06062716f51e872b89e5762a37ac82b35233139",
+    "publishedBytes": 13572
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/yanghaoyu-liao.webp",
+    "target": "images/people/yanghaoyu-liao.webp",
+    "sourceSha256": "f6b4b6ad16d3c7b17508f65ed2d780661e2fdff6b50a8f6922a4bad86bd85665",
+    "publishedBytes": 140063
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/bihui-yu.webp",
+    "target": "images/people/bihui-yu.webp",
+    "sourceSha256": "64a9a9232037f3cfbbd723d8c3034de2282cac56a5270edf50b46e59286fc5d3",
+    "publishedBytes": 12592
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/xinglong-xu.webp",
+    "target": "images/people/xinglong-xu.webp",
+    "sourceSha256": "d0b2b5adb1c363ba099fe791abcc15d58f867b0d919e8c26c74eb19e11207d24",
+    "publishedBytes": 134477
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-03-05/图1. 迈向生成推理的范式转变.png",
+    "target": "images/news/ggbench-2026/figure-1.webp",
+    "sourceSha256": "14f177af445a29877b4f2907e11d4208d9b94e98ac1b8a73576ac525447c89e8",
+    "publishedBytes": 165456
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-03-16/图1. 形式化几何推理的核心挑战与范式对比.png",
+    "target": "images/news/geoint-r1-2026/figure-1.webp",
+    "sourceSha256": "f4536c278abb0caf570b25de420e26b099253d6cadb55bce6726e94ea090bd12",
+    "publishedBytes": 89614
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-03-16/图2. Geoint-R1 架构与两阶段训练流水线.png",
+    "target": "images/news/geoint-r1-2026/figure-2.webp",
+    "sourceSha256": "f2ed5f1e83f3f1495fe58ec07620fd9074b8dcb5c6f3a54f8791f35c455874e0",
+    "publishedBytes": 104106
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-1/图1. 任务概述：给定查询和源文档，该模型同时生成答案和结构化三元组（文档 ID、发送者 ID、关系），以解释证据如何支持每个生成的句子。.jpg",
+    "target": "images/news/genprove-2026/figure-1.webp",
+    "sourceSha256": "351a86d16ee38aa29ecf9d8b551527349bc6e241ebac26c53f79bfda9deeb6d2",
+    "publishedBytes": 247438
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-1/图2. ReFInE的构建流程：该流程通过以下三个阶段确保高质量的溯源监管：（1）预处理，（2）LLM辅助标注及过滤，以及（3）重建，并辅以严格的人机协作专家验证，以验证证据的充分性和关系的正确性。.jpg",
+    "target": "images/news/genprove-2026/figure-2.webp",
+    "sourceSha256": "a1ce34d52cd136d260898be6798a726978110b1f289b708363779e26f77fcc64",
+    "publishedBytes": 167686
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-1/图3. GenProve训练框架：该模型首先经过SFT算法进行指令跟踪和格式学习。然后，使用GRPO算法结合复合奖励机制进行对齐，该机制联合优化答案保真度（内容相似度奖励）和细粒度溯源准确度（F1奖励）。.jpg",
+    "target": "images/news/genprove-2026/figure-3.webp",
+    "sourceSha256": "85da68d7690dfb1a557389a4ae40b25f71bd308db05a8f1dc1a888f3e535855f",
+    "publishedBytes": 221688
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-2/图1. 验证方法对比：与以往依赖复杂且缺乏灵活性的流水线验证方法（图b）不同，本研究提出的 Tool-Verifier（图c）提供了一种简洁、高效且即插即用的评估框架来检验合成数据的质量。.png",
+    "target": "images/news/tool-verifier-2026/figure-1.webp",
+    "sourceSha256": "628096a76bc4fa58d496a27a9837b7c8c45c50da8df8bc6d7db767bd06f094ff",
+    "publishedBytes": 112648
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-2/图2. Tool-Verifier 架构与训练：包含三个关键部分：(1)结合用户画像与情绪模拟生成复杂逼真的工具使用轨迹；(2)通过轨迹级的双重一致性验证构建正负样本数据集；(3)最终训练出独立的 Tool-Verifier 验证模型。.png",
+    "target": "images/news/tool-verifier-2026/figure-2.webp",
+    "sourceSha256": "690921d5abcd01601e2b9826b449bf99b0c75c5aa977fa01eed4de1e8cc0922c",
+    "publishedBytes": 81202
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-3/图1. 用户、LLM智能体和数据库之间的交互类型概览：从左至右依次为单轮单步、单轮多步以及本研究提出的多轮多步交互方法。.png",
+    "target": "images/news/dysql-bench-2026/figure-1.webp",
+    "sourceSha256": "2d4cb12a32e50911239eaa7f0c25e02d4c43ff931a32627bb7b1816d33bcbf6e",
+    "publishedBytes": 69338
+  },
+  {
+    "source": "materials/incoming/2026-11-01/news/2026-05-06-3/图2. DySQL-Bench任务生成两阶段流水线.png",
+    "target": "images/news/dysql-bench-2026/figure-2.webp",
+    "sourceSha256": "9d5f95ac9917907d8fd5005228d1d44241d2f24ba170eaf0265c578feeb326fb",
+    "publishedBytes": 89552
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/ucas.webp",
+    "target": "images/institutions/ucas.webp",
+    "sourceSha256": "73b43b5771df067ca233d7bc055eb2659b1e43815127cce856e11bf62cbc2a5f",
+    "publishedBytes": 15014
+  },
+  {
+    "source": "materials/incoming/2026-11-01/images/sict.webp",
+    "target": "images/institutions/sict.webp",
+    "sourceSha256": "42db979990d549bb0727db799e8d909b501d5e3e5906f7fe4165163026a0a444",
+    "publishedBytes": 51845
+  }
+]

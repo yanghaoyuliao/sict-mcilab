@@ -1,0 +1,451 @@
+[
+  {
+    "id": "genprove-2026",
+    "date": "2026-05-06",
+    "title": {
+      "zh": "GenProve：细粒度可溯源文本生成研究获 ACL 2026 主会 Oral",
+      "en": "GenProve: fine-grained provenance for text generation, accepted as an ACL 2026 Oral"
+    },
+    "summary": {
+      "zh": "在生成答案的同时定位句子级证据，区分引用、压缩与推理三种证据关系。",
+      "en": "Generating answers with sentence-level evidence and explicit quotation, compression, and inference relations."
+    },
+    "venue": "ACL 2026 · Oral",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research"
+    },
+    "paperId": "paper-01",
+    "paperTitle": null,
+    "image": "images/news/genprove-2026/figure-1.webp",
+    "sourceFolder": "2026-05-06-1",
+    "source": null,
+    "byline": {
+      "zh": "稿件署名：魏靖烜、王杏月、廖旸皓煜、董洁、于碧辉等。",
+      "en": "Authors listed in the news manuscript: Jingxuan Wei, Xinyue Wang, Yanghaoyu Liao, Jie Dong, Bihui Yu, et al."
+    },
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验室在大语言模型可验证文本生成与细粒度溯源方面开展研究，相关成果 GenProve 被 ACL 2026 主会接收为 Oral 论文。该工作关注生成内容与输入证据之间的对应关系，尝试让答案中的每个句子都能追溯到具体证据。",
+          "en": "The lab’s work on verifiable text generation and fine-grained provenance, GenProve, was accepted as an Oral paper at ACL 2026. The study examines how generated statements relate to their input evidence, with the goal of tracing each sentence to specific supporting sources."
+        },
+        "image": "images/news/genprove-2026/figure-1.webp",
+        "caption": {
+          "zh": "图 1　生成答案与句子级溯源标注",
+          "en": "Figure 1. Answer generation with sentence-level provenance."
+        }
+      },
+      {
+        "heading": {
+          "zh": "从文档引用到句子级证据",
+          "en": "From document citations to sentence-level evidence"
+        },
+        "body": {
+          "zh": "研究定义了“生成时细粒度溯源”任务：模型在生成答案时，为每个句子输出包含文档 ID、句子 ID 和关系类型的结构化三元组。关系类型分为引用（Quotation）、压缩（Compression）与推理（Inference），便于检查证据如何支持具体陈述。",
+          "en": "The generation-time fine-grained provenance task requires models to output a structured triple for each generated sentence: document ID, sentence ID, and relation type. The three relation types—Quotation, Compression, and Inference—describe how evidence supports a statement."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": {
+          "zh": "ReFInE 数据集与 GenProve 训练框架",
+          "en": "The ReFInE dataset and GenProve framework"
+        },
+        "body": {
+          "zh": "研究团队基于长文本问答语料构建 ReFInE 数据集，经句子级预处理、模型辅助标注和专家验证，获得带证据关系的多文档生成数据。GenProve 先通过监督微调学习指令与溯源格式，再采用 GRPO 强化学习，联合优化答案忠实度和细粒度溯源准确率。",
+          "en": "ReFInE is built from long-form question-answering data through sentence-level preprocessing, model-assisted annotation, and expert validation. GenProve first learns instructions and provenance formatting through supervised fine-tuning, then uses GRPO reinforcement learning to optimize answer faithfulness and provenance accuracy jointly."
+        },
+        "image": "images/news/genprove-2026/figure-2.webp",
+        "caption": {
+          "zh": "图 2　ReFInE 数据集构建流程",
+          "en": "Figure 2. The ReFInE data construction pipeline."
+        }
+      },
+      {
+        "heading": {
+          "zh": "实验结果与后续问题",
+          "en": "Evaluation and open questions"
+        },
+        "body": {
+          "zh": "稿件报告了与 14 个基线模型的比较，评测涵盖答案质量、溯源准确率及人工评价。结果显示，GenProve 在这些评测中取得提升；其中，基于推理的证据溯源仍比直接引用更为困难，是后续研究需要解决的问题。",
+          "en": "The manuscript compares GenProve with 14 baseline models using answer-quality metrics, provenance accuracy, and human evaluation. It reports improvements across these evaluations, while identifying inference-based provenance as a harder open problem than direct quotation."
+        },
+        "image": "images/news/genprove-2026/figure-3.webp",
+        "caption": {
+          "zh": "图 3　结合监督微调与 GRPO 的 GenProve 训练框架",
+          "en": "Figure 3. GenProve training with supervised fine-tuning and GRPO."
+        }
+      }
+    ]
+  },
+  {
+    "id": "dysql-bench-2026",
+    "date": "2026-05-06",
+    "title": {
+      "zh": "DySQL-Bench：面向真实数据库探索的动态多轮 SQL 交互基准",
+      "en": "DySQL-Bench: evaluating dynamic, multi-turn SQL interaction"
+    },
+    "summary": {
+      "zh": "覆盖 13 个领域、1,072 个任务，评测数据库智能体的多轮交互、状态操作与错误恢复能力。",
+      "en": "A benchmark of 1,072 tasks across 13 domains for multi-turn interaction, database state changes, and error recovery."
+    },
+    "venue": "ACL 2026",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research"
+    },
+    "paperId": null,
+    "paperTitle": "Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration",
+    "image": "images/news/dysql-bench-2026/figure-1.webp",
+    "sourceFolder": "2026-05-06-2",
+    "source": null,
+    "byline": {
+      "zh": "稿件署名：孙林壮、魏靖烜、于碧辉等。",
+      "en": "Authors listed in the news manuscript: Linzhuang Sun, Jingxuan Wei, Bihui Yu, et al."
+    },
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验室提出 DySQL-Bench，面向真实数据库探索评测大语言模型的 Text-to-SQL 能力。相关成果于 2026 年被 ACL 收录。与静态、单轮、只读查询不同，该基准关注用户意图在对话中的变化，以及智能体对执行反馈的响应。",
+          "en": "The lab introduces DySQL-Bench to evaluate Text-to-SQL capabilities in realistic database exploration. The work was accepted at ACL 2026. It moves beyond static, single-turn, read-only queries to examine evolving user intent and agents’ responses to execution feedback."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": {
+          "zh": "评测多轮交互与状态操作",
+          "en": "Multi-turn interaction and state changes"
+        },
+        "body": {
+          "zh": "DySQL-Bench 将用户、被测智能体和可执行数据库纳入交互评测框架，包含查询及增删改等状态操作。任务要求智能体根据追问和执行结果调整操作，而不是只生成一条 SQL 语句。",
+          "en": "DySQL-Bench evaluates interaction among a simulated user, a tested agent, and an executable database. Tasks include queries and state-changing operations such as insertion, deletion, and updating. Agents must adapt to follow-up requests and execution results."
+        },
+        "image": "images/news/dysql-bench-2026/figure-1.webp",
+        "caption": {
+          "zh": "图 1　单轮、单步与动态多轮多步交互范式对比",
+          "en": "Figure 1. Comparing single-turn and dynamic multi-turn interaction."
+        }
+      },
+      {
+        "heading": {
+          "zh": "任务构建与实验",
+          "en": "Task construction and evaluation"
+        },
+        "body": {
+          "zh": "团队设计了两阶段任务合成流程，并由领域专家进行检查与修订。基准共包含 13 个领域的 1,072 个复杂任务。稿件报告 GPT-4o 的总体准确率为 58.34%，Pass 5 指标为 23.81%，表明多轮交互与错误恢复仍具有挑战。",
+          "en": "The team uses a two-stage task synthesis pipeline followed by expert review and refinement. The benchmark contains 1,072 tasks across 13 domains. The manuscript reports an overall GPT-4o accuracy of 58.34% and a Pass 5 score of 23.81%, highlighting difficulties in multi-turn interaction and error recovery."
+        },
+        "image": "images/news/dysql-bench-2026/figure-2.webp",
+        "caption": {
+          "zh": "图 2　DySQL-Bench 任务生成与质量检查流程",
+          "en": "Figure 2. DySQL-Bench task generation and quality review."
+        }
+      }
+    ]
+  },
+  {
+    "id": "tool-verifier-2026",
+    "date": "2026-05-06",
+    "title": {
+      "zh": "Tool-Verifier：面向大模型工具调用轨迹的结果与过程验证",
+      "en": "Tool-Verifier: verifying outcomes and processes in tool-use trajectories"
+    },
+    "summary": {
+      "zh": "通过双重一致性检查评估合成工具调用数据，支持智能体训练数据的质量控制。",
+      "en": "Dual consistency checks for assessing synthetic tool-use data and supporting agent training."
+    },
+    "venue": "ACL 2026",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research"
+    },
+    "paperId": null,
+    "paperTitle": "Training Verifier to Assessing Complex Real-World Tool-Use Trajectories",
+    "image": "images/news/tool-verifier-2026/figure-1.webp",
+    "sourceFolder": "2026-05-06-3",
+    "source": null,
+    "byline": {
+      "zh": "稿件署名：孙林壮、魏靖烜、于碧辉等。",
+      "en": "Authors listed in the news manuscript: Linzhuang Sun, Jingxuan Wei, Bihui Yu, et al."
+    },
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验室提出 Tool-Verifier-7B，用于自动检查复杂、多轮工具调用轨迹的质量，相关成果于 2026 年被 ACL 收录。研究将验证器与数据生成过程分离，减少对特定任务规则的依赖。",
+          "en": "The lab introduces Tool-Verifier-7B to assess the quality of complex, multi-turn tool-use trajectories. The work was accepted at ACL 2026. The verifier is decoupled from data generation to reduce dependence on task-specific rules."
+        },
+        "image": "images/news/tool-verifier-2026/figure-1.webp",
+        "caption": {
+          "zh": "图 1　不同工具调用数据验证方法对比",
+          "en": "Figure 1. Comparing approaches to tool-use data verification."
+        }
+      },
+      {
+        "heading": {
+          "zh": "同时检查结果与过程",
+          "en": "Checking both outcomes and processes"
+        },
+        "body": {
+          "zh": "Tool-Verifier 采用“双重一致性”机制：结果一致性检查任务是否达到预期目标，过程一致性检查交互轨迹是否存在逻辑错误或策略违规。团队配套构建了包含 3,295 个多轮样本的 Tool-Verify 数据集，以及包含 165 条专家验证轨迹的 Tool-V-Bench 基准。",
+          "en": "Tool-Verifier checks outcome consistency—whether the task achieves its intended goal—and process consistency—whether the trajectory contains reasoning errors or policy violations. The work also introduces Tool-Verify with 3,295 multi-turn samples and Tool-V-Bench with 165 expert-validated trajectories."
+        },
+        "image": "images/news/tool-verifier-2026/figure-2.webp",
+        "caption": {
+          "zh": "图 2　轨迹合成、双重一致性验证与验证器训练",
+          "en": "Figure 2. Trajectory synthesis, dual consistency checks, and verifier training."
+        }
+      },
+      {
+        "heading": {
+          "zh": "评测与跨领域应用",
+          "en": "Evaluation and transfer across domains"
+        },
+        "body": {
+          "zh": "稿件报告了在 Tool-V-Bench 上与开源及闭源模型的比较，并测试了从零售领域训练数据迁移到航空预订、BFCL 等任务的表现。研究为合成工具调用轨迹的筛选与质量评估提供了一种独立验证方法。",
+          "en": "The manuscript compares Tool-Verifier with open and closed models on Tool-V-Bench and evaluates transfer from retail training data to airline booking and BFCL tasks. It provides an independent approach to filtering and assessing synthetic tool-use trajectories."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "id": "geoint-r1-2026",
+    "date": "2026-03-16",
+    "title": {
+      "zh": "Geoint-R1：结合动态辅助构造的形式化多模态几何推理",
+      "en": "Geoint-R1: formal geometric reasoning with dynamic auxiliary constructions"
+    },
+    "summary": {
+      "zh": "结合辅助元素构造、Lean 4 形式化证明与可视化反馈，相关成果被 CVPR 2026 录用。",
+      "en": "Combining auxiliary constructions, Lean 4 proofs, and visual feedback; accepted at CVPR 2026."
+    },
+    "venue": "CVPR 2026",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research"
+    },
+    "paperId": "paper-06",
+    "paperTitle": null,
+    "image": "images/news/geoint-r1-2026/figure-1.webp",
+    "sourceFolder": "2026-03-16",
+    "source": null,
+    "byline": {
+      "zh": "稿件署名：魏靖烜、贾彩军、陈奇、贺宏浩、孙林壮、于碧辉等。",
+      "en": "Authors listed in the news manuscript: Jingxuan Wei, Caijun Jia, Qi Chen, Honghao He, Linzhuang Sun, Bihui Yu, et al."
+    },
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验室提出 Geoint-R1 多模态几何推理框架，以及配套的 Geoint 基准，相关成果被 CVPR 2026 录用。研究关注需要添加辅助线等几何元素的证明问题，要求推理步骤既能可视化，又可通过形式化系统验证。",
+          "en": "The lab introduces Geoint-R1 and the Geoint benchmark, accepted at CVPR 2026. The work studies geometric proofs requiring auxiliary constructions, with reasoning steps that can be both visualized and formally verified."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": {
+          "zh": "辅助构造与形式化验证",
+          "en": "Auxiliary constructions and formal verification"
+        },
+        "body": {
+          "zh": "Geoint-R1 将辅助元素构造、Lean 4 形式化推理和交互式可视化结合。Geoint 包含 1,885 个经专家标注的几何问题，覆盖平面与空间几何，为推理步骤提供结构化文本、Lean 4 代码和视觉图表。",
+          "en": "Geoint-R1 combines auxiliary constructions, Lean 4 formal reasoning, and interactive visualization. Geoint contains 1,885 expert-annotated problems covering plane and spatial geometry, with structured text, Lean 4 code, and visual diagrams for reasoning steps."
+        },
+        "image": "images/news/geoint-r1-2026/figure-1.webp",
+        "caption": {
+          "zh": "图 1　形式化几何推理的核心挑战与范式对比",
+          "en": "Figure 1. Challenges and paradigms in formal geometric reasoning."
+        }
+      },
+      {
+        "heading": {
+          "zh": "两阶段训练",
+          "en": "Two-stage training"
+        },
+        "body": {
+          "zh": "训练首先通过监督微调学习证明结构与代码语法，再结合课程学习进行强化学习，奖励综合考虑逻辑有效性、答案正确性与辅助构造质量。实验比较了解答题和证明题上的表现，分析了动态辅助构造在形式化推理中的作用。",
+          "en": "Training begins with supervised fine-tuning for proof structure and code syntax, followed by reinforcement learning with a curriculum. Rewards account for logical validity, answer correctness, and construction quality. Evaluation examines both solution and proof tasks and the role of dynamic auxiliary constructions."
+        },
+        "image": "images/news/geoint-r1-2026/figure-2.webp",
+        "caption": {
+          "zh": "图 2　Geoint-R1 架构与两阶段训练流程",
+          "en": "Figure 2. Geoint-R1 architecture and two-stage training."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ggbench-2026",
+    "date": "2026-03-05",
+    "title": {
+      "zh": "GGBench：面向统一多模态模型的几何生成推理基准",
+      "en": "GGBench: a geometric generative reasoning benchmark"
+    },
+    "summary": {
+      "zh": "通过自然语言、GeoGebra 代码与图表对齐的三模态数据，评测模型的几何理解与生成能力。",
+      "en": "Evaluating geometric understanding and generation with aligned language, GeoGebra code, and diagrams."
+    },
+    "venue": "CVPR 2026",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research"
+    },
+    "paperId": "paper-05",
+    "paperTitle": null,
+    "image": "images/news/ggbench-2026/figure-1.webp",
+    "sourceFolder": "2026-03-05",
+    "source": null,
+    "byline": {
+      "zh": "稿件署名：魏靖烜、贾彩军、白西、许兴龙等为共同第一作者，于碧辉等为通讯作者。",
+      "en": "The news manuscript lists Jingxuan Wei, Caijun Jia, Xi Bai, and Xinglong Xu among the co-first authors, and Bihui Yu among the corresponding authors."
+    },
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验室提出 GGBench，系统评测统一多模态模型的几何生成推理能力，相关成果被 CVPR 2026 录用。研究将几何作图作为测试场景，联合考察语言理解、空间推理与精确视觉生成。",
+          "en": "The lab introduces GGBench to evaluate geometric generative reasoning in unified multimodal models. The work was accepted at CVPR 2026. Geometric construction is used to examine language understanding, spatial reasoning, and precise visual generation together."
+        },
+        "image": "images/news/ggbench-2026/figure-1.webp",
+        "caption": {
+          "zh": "图 1　从感知理解到几何生成推理的评测范式",
+          "en": "Figure 1. From perceptual understanding to geometric generative reasoning."
+        }
+      },
+      {
+        "heading": {
+          "zh": "三模态对齐数据与评测",
+          "en": "Aligned data and evaluation"
+        },
+        "body": {
+          "zh": "每个问题包含自然语言指令、可执行的 GeoGebra 代码与渲染图表。基准包括 1,411 个问题，覆盖 8 类几何任务，配有超过 7,000 张对齐图像。评测结合自动指标与人工审查，检查文本规划、代码可执行性和图表的几何准确性。",
+          "en": "Each problem includes natural-language instructions, executable GeoGebra code, and rendered diagrams. The benchmark contains 1,411 problems across eight geometry categories and more than 7,000 aligned images. Evaluation combines automatic metrics and human review of planning, code executability, and geometric accuracy."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": {
+          "zh": "实验观察",
+          "en": "Experimental observations"
+        },
+        "body": {
+          "zh": "研究比较了直接生成图像与通过代码构建图形的模型。结果显示，两类方法在满足精确几何约束方面存在差异，代码生成方法在逻辑连贯性和几何正确性上表现更好。基准中的可执行代码也为过程验证提供了依据。",
+          "en": "The study compares direct image generation with code-based geometric construction. It finds differences in their ability to satisfy precise geometric constraints, with code-based methods performing better on logical coherence and geometric correctness. Executable code also supports verification of the construction process."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "id": "researchpulse-2025",
+    "date": "2025-10-20",
+    "title": {
+      "zh": "ResearchPulse 研究成果发表于 ACM MM 2025",
+      "en": "ResearchPulse at ACM Multimedia 2025"
+    },
+    "summary": {
+      "zh": "通过多文档科学推理组织方法与实验之间的关系。",
+      "en": "Connecting methods and experiments through multi-document scientific inference."
+    },
+    "venue": "ACM MM 2025",
+    "category": {
+      "zh": "学术交流",
+      "en": "Conference"
+    },
+    "paperId": "paper-14",
+    "paperTitle": null,
+    "image": "images/news/legacy/news-acmmm.webp",
+    "sourceFolder": null,
+    "source": "https://dracoxa.github.io/event/aclmm/",
+    "byline": null,
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "ResearchPulse: Building Method–Experiment Chains through Multi-Document Scientific Inference 作为 ACM MM 2025 Regular Paper 发表。研究通过多篇科学文献之间的关联推理，组织方法与实验信息。会议于 2025 年 10 月 20—24 日在爱尔兰都柏林举行。",
+          "en": "ResearchPulse: Building Method–Experiment Chains through Multi-Document Scientific Inference appeared as a Regular Paper at ACM MM 2025. It connects methods and experiments through reasoning across scientific documents. The conference was held in Dublin, Ireland, on October 20–24, 2025."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "id": "mmverify-2025",
+    "date": "2025-07-30",
+    "title": {
+      "zh": "MM-Verify：以思维链验证增强多模态推理",
+      "en": "MM-Verify: chain-of-thought verification for multimodal reasoning"
+    },
+    "summary": {
+      "zh": "相关成果发表于 ACL 2025 主会长文。",
+      "en": "Published as an ACL 2025 main-conference long paper."
+    },
+    "venue": "ACL 2025",
+    "category": {
+      "zh": "学术交流",
+      "en": "Conference"
+    },
+    "paperId": "paper-13",
+    "paperTitle": null,
+    "image": "images/news/legacy/news-acl.webp",
+    "sourceFolder": null,
+    "source": "https://dracoxa.github.io/event/acl2025/",
+    "byline": null,
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification 发表于 ACL 2025 主会长文。该工作探索利用思维链验证提升多模态推理能力。会议于 2025 年 7 月 30 日至 8 月 3 日在奥地利维也纳举行。",
+          "en": "MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification appeared as an ACL 2025 main-conference long paper. It studies chain-of-thought verification for multimodal reasoning. The conference was held in Vienna, Austria, from July 30 to August 3, 2025."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "id": "text-to-diagram-2025",
+    "date": "2025-06-11",
+    "title": {
+      "zh": "文本到结构化图示生成与编辑研究发表于 CVPR 2025",
+      "en": "Text-to-diagram generation and editing at CVPR 2025"
+    },
+    "summary": {
+      "zh": "构建文本到图示生成与编辑的基准和框架。",
+      "en": "A benchmark and framework for text-to-diagram generation and editing."
+    },
+    "venue": "CVPR 2025",
+    "category": {
+      "zh": "学术交流",
+      "en": "Conference"
+    },
+    "paperId": "paper-15",
+    "paperTitle": null,
+    "image": "images/news/legacy/news-cvpr.webp",
+    "sourceFolder": null,
+    "source": "https://dracoxa.github.io/event/cvpr/",
+    "byline": null,
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing 发表于 CVPR 2025。该工作研究如何将文本描述转化为结构化图示，并支持图示编辑。会议于 2025 年 6 月 11—15 日在美国纳什维尔举行。",
+          "en": "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing appeared at CVPR 2025. It studies how text descriptions can be transformed into structured diagrams and edited. The conference was held in Nashville, USA, on June 11–15, 2025."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  }
+]

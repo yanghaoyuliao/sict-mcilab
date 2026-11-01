@@ -1,0 +1,101 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { research } from "../data/research";
+import news from "../data/news.json";
+import { useLab } from "../context/LabContext";
+import { PageHeading } from "../components/ui";
+import { publications, PaperDetails } from "./PublicationsPage";
+import type { Paper } from "./PublicationsPage";
+import { asset } from "../lib/assets";
+const illustrations: Record<string, string> = {
+  reasoning: "geoint-r1-2026",
+  generation: "tool-verifier-2026",
+  language: "genprove-2026",
+};
+export default function ResearchPage() {
+  const { t, l, lang } = useLab();
+  const [selected, setSelected] = useState<Paper | null>(null);
+  return (
+    <>
+      <PageHeading
+        eyebrow="Research"
+        title={t("研究方向", "Research")}
+        description={t(
+          "多模态理解与推理、结构化生成与智能体、科学智能、语言模型与高效学习。",
+          "Multimodal reasoning, structured generation and agents, AI for science, and efficient language modeling.",
+        )}
+      />
+      <div className="container page-content research-page">
+        <nav
+          className="research-jump"
+          aria-label={t("研究方向索引", "Research area index")}
+        >
+          {research.map((r) => (
+            <Link to={`/research#${r.id}`} key={r.id}>
+              {l(r.title)}
+            </Link>
+          ))}
+        </nav>
+        {research.map((r) => {
+          const update = news.find((n) => n.id === illustrations[r.id]);
+          return (
+            <section id={r.id} key={r.id} className="research-detail">
+              <div className="research-description">
+                <span className="section-label">
+                  {r.number} / {r.subtitle}
+                </span>
+                <h2>{l(r.title)}</h2>
+                <p>{l(r.detail)}</p>
+                <p className="research-keywords">{r.tags[lang].join(" · ")}</p>
+                {update && (
+                  <Link to={`/news/${update.id}`} className="research-figure">
+                    <img
+                      src={asset(update.image)}
+                      alt={l(update.title)}
+                      loading="lazy"
+                    />
+                    <span>
+                      {l(update.title)}
+                      <ArrowUpRight size={14} />
+                    </span>
+                  </Link>
+                )}
+                {!update && (
+                  <p className="research-context">
+                    {t(
+                      "相关研究涉及科学文献、图表理解与跨文档知识组织。",
+                      "Related studies cover scientific literature, chart understanding, and knowledge organization across documents.",
+                    )}
+                  </p>
+                )}
+              </div>
+              <div className="related-papers">
+                <h3>{t("相关成果", "Related publications")}</h3>
+                {r.papers.slice(0, 3).map((id) => {
+                  const p = publications.find((p) => p.id === id);
+                  return p ? (
+                    <button key={id} onClick={() => setSelected(p)}>
+                      <span className="related-venue">
+                        {p.venue} {p.year}
+                      </span>
+                      <span>{p.title}</span>
+                      <ArrowUpRight size={15} />
+                    </button>
+                  ) : null;
+                })}
+                <Link className="text-link" to={`/publications?topic=${r.id}`}>
+                  {t("此方向全部成果", "All publications in this area")}
+                  <ArrowRight size={15} />
+                </Link>
+              </div>
+            </section>
+          );
+        })}
+      </div>
+      {selected && (
+        <PaperDetails paper={selected} onClose={() => setSelected(null)} />
+      )}
+    </>
+  );
+}
