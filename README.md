@@ -97,8 +97,8 @@ Excel 默认位于 `materials/reference/sict_publications_ccf_ab_2026.xlsx`，�
 
 ## 部署
 
-目标仓库为 <https://github.com/yanghaoyuliao/sict-mcilab>，正式域名为 `sict-mcilab.cn`。已准备 `.github/workflows/deploy.yml`：推送到 main 分支后自动检查、构建，并只将 `dist/` 发布到 GitHub Pages；也支持手动触发。当前仅准备本地配置，尚未上传或发布。
+源码已上传至 <https://github.com/yanghaoyuliao/sict-mcilab>，正式域名为 `sict-mcilab.cn`。`.github/workflows/deploy.yml` 已部署成功：推送到 main 分支后自动检查、构建，并只将 `dist/` 发布到 GitHub Pages；也支持手动触发。
 
-首次上线需要上传源码、在仓库 Pages 设置选择 GitHub Actions、保存自定义域名，并在域名解析控制台添加 DNS 记录。具体操作、完整解析表和常见问题见 [上线与域名配置](docs/DEPLOYMENT.md)。上线前先核对 [内容说明](docs/CONTENT.md) 中的资料。
+Pages 自定义域名与 DNSPod 解析已配置，<http://sict-mcilab.cn/> 已可访问；HTTPS 证书正在等待签发。当前状态、解析表、后续更新方式和常见问题见 [上线与域名配置](docs/DEPLOYMENT.md)。资料维护前先核对 [内容说明](docs/CONTENT.md)。
 
 技术栈为 React、TypeScript、Vite、React Router、Lucide。采用相对资源路径与 HashRouter，可部署到 GitHub Pages 的根站或项目子目录，刷新子页面无需额外服务器路由。没有数据库、后台、自动收件或访问统计服务。后续若需要更强的搜索引擎收录与文章分享预览，可升级为静态预渲染方案。

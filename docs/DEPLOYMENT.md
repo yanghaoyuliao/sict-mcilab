@@ -6,11 +6,12 @@
 
 2026-11-01 检查结果：
 
-- 目标仓库：<https://github.com/yanghaoyuliao/sict-mcilab>，目前为空。
-- 本地分支为 `main`，尚无提交；已将目标仓库关联为 `origin`。
+- 源码已上传至 <https://github.com/yanghaoyuliao/sict-mcilab>，本地 `main` 跟踪 `origin/main`。
 - 自动发布文件为 `.github/workflows/deploy.yml`，使用 Node.js 22、`npm ci` 和 `npm run build`；构建任务具有读取 Pages 配置的权限，发布任务具有部署权限。
-- `sict-mcilab.cn` 的域名服务器为 DNSPod，尚未查到根域名的 A / AAAA 记录或 www 的 CNAME 记录。
-- 网站尚未推送或发布；GitHub 账号设置和 DNS 记录需在你自己的已登录账号中完成。
+- GitHub Pages 已启用 GitHub Actions 发布，并绑定 `sict-mcilab.cn`；首次部署成功。
+- DNSPod 已保存两条根域名 A 记录（`185.199.108.153`、`185.199.109.153`）和 `www` 的 CNAME（`yanghaoyuliao.github.io`），已通过权威 DNS 和公共 DNS 查询验证。
+- DNSPod 免费版同主机、同线路、同类型最多支持两条记录，因此当前采用两个 GitHub 官方 IPv4 地址。无需为上线升级解析套餐。
+- <http://sict-mcilab.cn/> 已可访问；HTTPS 证书正在等待 GitHub 签发，签发后启用强制 HTTPS。
 
 ## 1. 首次上传源码
 
@@ -49,21 +50,19 @@ git config user.email "你的 GitHub 提交邮箱"
 
 ## 3. 配置域名解析
 
-打开域名的 DNS 管理控制台。当前域名使用 DNSPod 的域名服务器；如果在腾讯云管理，可进入 [DNSPod 控制台](https://console.cloud.tencent.com/cns)。进入 `sict-mcilab.cn` 的解析记录列表，添加以下五条记录：
+打开域名的 DNS 管理控制台。当前域名使用 DNSPod 的域名服务器；如果在腾讯云管理，可进入 [DNSPod 控制台](https://console.cloud.tencent.com/cns)。当前免费套餐已配置以下三条记录：
 
 | 主机记录 | 记录类型 | 记录值                    |
 | -------- | -------- | ------------------------- |
 | `@`      | `A`      | `185.199.108.153`         |
 | `@`      | `A`      | `185.199.109.153`         |
-| `@`      | `A`      | `185.199.110.153`         |
-| `@`      | `A`      | `185.199.111.153`         |
 | `www`    | `CNAME`  | `yanghaoyuliao.github.io` |
 
 每一行都是一条独立记录。“线路”选择默认，“TTL”保留默认即可。`@` 代表 `sict-mcilab.cn`，`www` 代表 `www.sict-mcilab.cn`。CNAME 的记录值只填写上表中的主机名。
 
 已有指向其他网站的同名 `@` 或 `www` 记录时，需要将相关记录调整为上表的目标；域名邮箱的 MX / TXT 等其他记录按原用途保留。
 
-这五条记录即可支持 IPv4 访问。若以后需要 IPv6，再根据 GitHub 官方文档补充 AAAA 记录。
+以上记录支持 IPv4 访问。GitHub 还提供 `185.199.110.153` 和 `185.199.111.153`；若以后使用允许四条同类记录的 DNS 套餐，可补充这两个地址。若需要 IPv6，再根据 GitHub 官方文档补充 AAAA 记录。
 
 ## 4. 启用 HTTPS 并验收
 
