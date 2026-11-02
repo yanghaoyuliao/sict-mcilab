@@ -78,6 +78,12 @@
     "publishedBytes": 12592
   },
   {
+    "source": "materials/incoming/2026-11-02/images/people/liping-bu.webp",
+    "target": "images/people/liping-bu.webp",
+    "sourceSha256": "3aaa36f27bfaac9d0e68ef59207e7c3a3056f12d7081e869f9c5cf1a34d980db",
+    "publishedBytes": 68859
+  },
+  {
     "source": "materials/incoming/2026-11-02/images/people/qi-zhang.webp",
     "target": "images/people/qi-zhang.webp",
     "sourceSha256": "001d9ab7e479e66973043d2d416fe0d89046349426403b14cae253692d68aa62",
