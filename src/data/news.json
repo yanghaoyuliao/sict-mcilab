@@ -67,8 +67,8 @@
     "id": "genprove-2026",
     "date": "2026-05-06",
     "title": {
-      "zh": "GenProve：细粒度可溯源文本生成研究获 ACL 2026 主会 Oral",
-      "en": "GenProve: fine-grained provenance for text generation, accepted as an ACL 2026 Oral"
+      "zh": "让大模型句句有据！GenProve：细粒度可溯源文本生成研究获 ACL 2026 主会 Oral",
+      "en": "Every sentence backed by evidence! GenProve: fine-grained provenance for text generation, accepted as an ACL 2026 Oral"
     },
     "summary": {
       "zh": "在生成答案的同时定位句子级证据，区分引用、压缩与推理三种证据关系。",
@@ -149,12 +149,12 @@
     "id": "dysql-bench-2026",
     "date": "2026-05-06",
     "title": {
-      "zh": "DySQL-Bench：面向真实数据库探索的动态多轮 SQL 交互基准",
-      "en": "DySQL-Bench: evaluating dynamic, multi-turn SQL interaction"
+      "zh": "大模型做SQL也怕多轮追问？GPT-4o总体准确率58.34%，Pass 5仅23.81%",
+      "en": "Can LLMs handle follow-up SQL questions? GPT-4o reaches 58.34% overall accuracy, but only 23.81% on Pass 5"
     },
     "summary": {
-      "zh": "覆盖 13 个领域、1,072 个任务，评测数据库智能体的多轮交互、状态操作与错误恢复能力。",
-      "en": "A benchmark of 1,072 tasks across 13 domains for multi-turn interaction, database state changes, and error recovery."
+      "zh": "首个动态多轮Text-to-SQL基准DySQL-Bench发布，覆盖13个领域1072个复杂任务",
+      "en": "Introducing DySQL-Bench, the first dynamic multi-turn Text-to-SQL benchmark, with 1,072 complex tasks across 13 domains."
     },
     "venue": "ACL 2026",
     "category": {
@@ -216,12 +216,12 @@
     "id": "tool-verifier-2026",
     "date": "2026-05-06",
     "title": {
-      "zh": "Tool-Verifier：面向大模型工具调用轨迹的结果与过程验证",
-      "en": "Tool-Verifier: verifying outcomes and processes in tool-use trajectories"
+      "zh": "给AI智能体请个铁面“考官”：一查结果，二查过程",
+      "en": "A strict examiner for AI agents: checking both outcomes and processes"
     },
     "summary": {
-      "zh": "通过双重一致性检查评估合成工具调用数据，支持智能体训练数据的质量控制。",
-      "en": "Dual consistency checks for assessing synthetic tool-use data and supporting agent training."
+      "zh": "实验室提出Tool-Verifier-7B，为工具调用数据做双重体检",
+      "en": "The lab introduces Tool-Verifier-7B to double-check tool-use data."
     },
     "venue": "ACL 2026",
     "category": {
@@ -283,12 +283,12 @@
     "id": "geoint-r1-2026",
     "date": "2026-03-16",
     "title": {
-      "zh": "Geoint-R1：结合动态辅助构造的形式化多模态几何推理",
-      "en": "Geoint-R1: formal geometric reasoning with dynamic auxiliary constructions"
+      "zh": "AI做几何题卡在辅助线？Geoint-R1把证明写进Lean 4，还用不到同行几分之一参数",
+      "en": "Stuck on auxiliary lines? Geoint-R1 writes geometry proofs in Lean 4 with far fewer parameters than peer models"
     },
     "summary": {
-      "zh": "结合辅助元素构造、Lean 4 形式化证明与可视化反馈，相关成果被 CVPR 2026 录用。",
-      "en": "Combining auxiliary constructions, Lean 4 proofs, and visual feedback; accepted at CVPR 2026."
+      "zh": "首个“形式化几何推理”任务与Geoint基准发布，1885道专家标注题覆盖平面、空间和立体几何",
+      "en": "Introducing the first formal geometric reasoning task and the Geoint benchmark, with 1,885 expert-annotated problems covering plane, spatial, and solid geometry."
     },
     "venue": "CVPR 2026",
     "category": {
@@ -350,12 +350,12 @@
     "id": "ggbench-2026",
     "date": "2026-03-05",
     "title": {
-      "zh": "GGBench：面向统一多模态模型的几何生成推理基准",
-      "en": "GGBench: a geometric generative reasoning benchmark"
+      "zh": "AI画几何图总翻车？GGBench用三模态“考卷”测出多模态模型真功夫",
+      "en": "AI keeps getting geometry diagrams wrong? GGBench puts multimodal models to a three-modality test"
     },
     "summary": {
-      "zh": "通过自然语言、GeoGebra 代码与图表对齐的三模态数据，评测模型的几何理解与生成能力。",
-      "en": "Evaluating geometric understanding and generation with aligned language, GeoGebra code, and diagrams."
+      "zh": "实验室提出几何生成推理评估基准，相关成果被CVPR 2026录用",
+      "en": "The lab introduces a benchmark for geometric generative reasoning; the work was accepted at CVPR 2026."
     },
     "venue": "CVPR 2026",
     "category": {
