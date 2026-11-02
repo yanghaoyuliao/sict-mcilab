@@ -29,6 +29,7 @@ export const navigation = [
   { path: "/research", label: { zh: "研究方向", en: "Research" } },
   { path: "/team", label: { zh: "团队成员", en: "Members" } },
   { path: "/publications", label: { zh: "科研成果", en: "Publications" } },
+  { path: "/collaboration", label: { zh: "实践合作", en: "Collaboration" } },
   { path: "/news", label: { zh: "新闻动态", en: "News" } },
   { path: "/join", label: { zh: "加入我们", en: "Join us" } },
   { path: "/contact", label: { zh: "联系方式", en: "Contact" } },

@@ -1,0 +1,212 @@
+.practice-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 26px;
+  padding-bottom: 27px;
+  border-bottom: 1px solid var(--line);
+}
+.practice-index a {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.practice-index a:hover {
+  color: var(--teal);
+}
+.practice-index a > span {
+  font:
+    15px Georgia,
+    serif;
+  color: var(--teal);
+}
+.practice-study {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: clamp(32px, 5vw, 72px);
+  padding-block: 45px;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 24px;
+}
+.practice-copy,
+.practice-figures {
+  min-width: 0;
+}
+.practice-number {
+  display: block;
+  color: var(--teal);
+  font:
+    23px Georgia,
+    serif;
+  margin-bottom: 12px;
+}
+.practice-copy h2 {
+  font: 600 29px / 1.5 var(--serif);
+  margin-bottom: 17px;
+}
+.practice-description {
+  font-size: 17px;
+}
+.practice-examples {
+  margin: 23px 0;
+}
+.practice-examples > div + div {
+  margin-top: 19px;
+}
+.practice-examples dt {
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+.practice-examples dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.85;
+}
+.practice-technologies {
+  border-left: 2px solid #b0c8c0;
+  padding-left: 16px;
+}
+.practice-technologies h3 {
+  color: var(--teal);
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.practice-technologies p {
+  font-size: 15px;
+  color: var(--muted);
+}
+.practice-figures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.practice-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--pale);
+}
+.practice-image img {
+  width: 100%;
+  height: auto;
+}
+.practice-image > span {
+  position: absolute;
+  right: 9px;
+  bottom: 9px;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  color: var(--navy);
+  border: 1px solid var(--line);
+  transition: background-color 180ms ease;
+}
+.practice-image:hover > span {
+  background: #e1efea;
+}
+.practice-figures figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.collaboration-network {
+  padding-top: 46px;
+}
+.network-intro {
+  color: var(--muted);
+  margin-top: 20px;
+}
+.partner-groups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  padding-top: 25px;
+}
+.partner-groups h3 {
+  font-size: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.partner-groups ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.partner-groups li + li {
+  margin-top: 6px;
+}
+.collaboration-contact {
+  margin-top: 45px;
+  padding: 27px 30px;
+  background: #f1f6f4;
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  align-items: center;
+}
+.collaboration-contact h2 {
+  font: 600 25px / 1.5 var(--serif);
+  margin-bottom: 7px;
+}
+.collaboration-contact p {
+  color: var(--muted);
+  max-width: 650px;
+}
+.collaboration-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.research-practice > p {
+  max-width: 850px;
+  color: var(--muted);
+  margin-block: 18px;
+}
+@media (max-width: 760px) {
+  .practice-study {
+    grid-template-columns: 1fr;
+    gap: 27px;
+    padding-block: 32px;
+  }
+  .practice-copy h2 {
+    font-size: 26px;
+  }
+  .practice-index {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 20px;
+    padding-bottom: 24px;
+  }
+  .partner-groups {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .collaboration-contact {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px;
+  }
+}
+@media (max-width: 540px) {
+  .practice-index {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+  .collaboration-network {
+    padding-top: 30px;
+  }
+}

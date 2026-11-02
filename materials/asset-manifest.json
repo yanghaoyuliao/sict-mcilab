@@ -352,5 +352,42 @@
     "target": "images/news/ai4s-qingdao-2026/figure-1.webp",
     "maxWidth": 1600,
     "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/shitou-platform.png",
+    "target": "images/collaboration/shitou-platform.webp",
+    "maxWidth": 1800,
+    "note": "Extracted original embedded image from team introduction v4.0 (2025-07-10), slide 9; no crop."
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/shensi-model.png",
+    "target": "images/collaboration/shensi-model.webp",
+    "maxWidth": 1800,
+    "note": "Extracted original embedded image from team introduction v4.0 (2025-07-10), slide 10; no crop."
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/scientific-literature.png",
+    "target": "images/collaboration/scientific-literature.webp",
+    "maxWidth": 1800,
+    "note": "Extracted original embedded image from team introduction v4.0 (2025-07-10), slide 11; no crop."
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/action-recognition.png",
+    "target": "images/collaboration/action-recognition.webp",
+    "maxWidth": 1800,
+    "note": "Extracted original embedded image from team introduction v4.0 (2025-07-10), slide 13; no crop."
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/digital-human.png",
+    "target": "images/collaboration/digital-human.webp",
+    "maxWidth": 1800,
+    "note": "Extracted original embedded image from team introduction v4.0 (2025-07-10), slide 15; no crop."
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/科研协作项目图4.webp",
+    "target": "images/collaboration/scientific-instrument.webp",
+    "maxWidth": 1600,
+    "note": "User supplied photo; also appears on slide 5 of team introduction v4.0. Original aspect ratio preserved.",
+    "optimize": true
   }
 ]

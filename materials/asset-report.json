@@ -352,5 +352,41 @@
     "target": "images/news/ai4s-qingdao-2026/figure-1.webp",
     "sourceSha256": "c2b8c865caf149bfd051464edf8a50e479ebe2274acf3325697d10ad6b44fe4b",
     "publishedBytes": 207290
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/shitou-platform.png",
+    "target": "images/collaboration/shitou-platform.webp",
+    "sourceSha256": "2c699ce9e71cad3b1ec4bf79e864e4870fec07209b0b021f5e4c5095b96d40b4",
+    "publishedBytes": 40364
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/shensi-model.png",
+    "target": "images/collaboration/shensi-model.webp",
+    "sourceSha256": "dc13f7b99ae3dbefcfb9e5b5bbaac7d1e3f4f09c13971f527832249b91bc45bb",
+    "publishedBytes": 55740
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/scientific-literature.png",
+    "target": "images/collaboration/scientific-literature.webp",
+    "sourceSha256": "0ae533fa15217bf066b1243edad65f9985ab41ed22f7a9772dec2aa7db4bb499",
+    "publishedBytes": 96590
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/action-recognition.png",
+    "target": "images/collaboration/action-recognition.webp",
+    "sourceSha256": "6738796879fb772f7a39e3d25a4ade35691dce51d6386394ddf376fc3fc7abb4",
+    "publishedBytes": 15588
+  },
+  {
+    "source": "materials/incoming/2026-11-02/presentation-media/digital-human.png",
+    "target": "images/collaboration/digital-human.webp",
+    "sourceSha256": "80ed70dfd5e5a7f42ef441857a4e6425d1f2a0ccca6f45942d3adb50e9f8a8e0",
+    "publishedBytes": 54046
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/科研协作项目图4.webp",
+    "target": "images/collaboration/scientific-instrument.webp",
+    "sourceSha256": "29d766d5afd04e5a6b1598e7a870ff35df3103ac10d2859cde82e8e7f8dc872b",
+    "publishedBytes": 138706
   }
 ]

@@ -139,8 +139,8 @@ export default function HomePage() {
           <SectionHeading
             title={t("科研平台与合作", "Research environment & collaboration")}
             en={lang === "zh" ? "Our lab" : undefined}
-            to="/research"
-            linkText={t("了解研究工作", "Explore our research")}
+            to="/collaboration"
+            linkText={t("查看实践合作", "Explore collaboration")}
           />
           <div className="lab-overview">
             <h3>

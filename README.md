@@ -1,6 +1,6 @@
 # 多模态认知智能实验室网站
 
-国科大 / 中科院沈阳计算技术研究所实验室双语官网。采用浅色、深蓝与青绿的学术排版，以真实合照、新闻与论文图为主。包含七个栏目、新闻全文与成员详情，适配电脑和手机。
+国科大 / 中科院沈阳计算技术研究所实验室双语官网。采用浅色、深蓝与青绿的学术排版，以真实合照、新闻与论文图为主。包含八个栏目、新闻全文与成员详情，适配电脑和手机。
 
 当前录入 **28 位成员、12 条新闻、48 篇近三年论文（2024–2026）**。成员包括教师 2 位、实验室秘书 1 位、博士研究生 4 位、硕士研究生 21 位。内容来源与校对事项见 [内容说明](docs/CONTENT.md)。
 
@@ -25,6 +25,7 @@ npm run dev
 | 新闻标题、日期、双语正文与配图           | `src/data/news.json`                                 |
 | 论文目录                                 | `src/data/publications.json`                         |
 | 研究方向及论文关联                       | `src/data/research.ts`                               |
+| 实践项目、相关技术与合作单位             | `src/data/collaboration.ts`                          |
 | 实验室名称、机构和联系方式               | `src/data/site.ts`                                   |
 | 首页介绍                                 | `src/pages/HomePage.tsx`                             |
 | 首页精选论文与配图                       | `src/pages/PublicationsPage.tsx` 的 `FeaturedPapers` |
@@ -39,7 +40,7 @@ npm run dev
 
 ```text
 src/
-  pages/             七个栏目、新闻详情、404
+  pages/             八个栏目、新闻详情、404
   components/        页头页尾、标题、弹窗等公共组件
   context/           语言选择与提示
   data/              成员、新闻、论文、研究方向及机构资料
@@ -49,6 +50,7 @@ public/
   images/people/     成员肖像
   images/lab/        实验室合照
   images/news/       按新闻 slug 分类的配图
+  images/collaboration/  实践项目、平台界面与技术图示
   images/institutions/  国科大与沈阳计算所标识
 materials/
   incoming/          按日期保存的新素材原件（本地）

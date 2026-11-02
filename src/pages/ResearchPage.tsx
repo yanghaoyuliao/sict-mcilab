@@ -102,50 +102,16 @@ export default function ResearchPage() {
               "Connecting knowledge, models, and applications",
             )}
           </h2>
-          <div className="practice-grid">
-            <article>
-              <span>01</span>
-              <h3>
-                {t("知识图谱与大模型", "Knowledge graphs & large models")}
-              </h3>
-              <p>
-                {t(
-                  "围绕“石头”知识图谱构建平台与“沈思”多模态大模型，开展知识抽取、实体链接、知识推理、检索增强生成与模型适配研究；参与知识图谱相关标准的研究与编制。",
-                  "Our work on the Shitou knowledge graph platform and Shensi multimodal model covers knowledge extraction, entity linking, knowledge reasoning, retrieval-augmented generation, and model adaptation. The team also contributes to research and drafting of knowledge graph standards.",
-                )}
-              </p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>
-                {t(
-                  "科学智能与科研装备",
-                  "AI for science & scientific instruments",
-                )}
-              </h3>
-              <p>
-                {t(
-                  "面向生命科学、材料和科技文献开展合作，探索抗体设计、材料设计与知识发现。团队参与高频超声雾化科研装备、X 射线单晶衍射仪及科技文献智能处理等相关项目。",
-                  "We collaborate on life sciences, materials, and scientific literature, exploring antibody design, materials design, and knowledge discovery. Team projects have included high-frequency ultrasonic atomization instruments, X-ray single-crystal diffractometers, and intelligent processing of scientific literature.",
-                )}
-              </p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>
-                {t(
-                  "多模态感知与智能交互",
-                  "Multimodal perception & interaction",
-                )}
-              </h3>
-              <p>
-                {t(
-                  "结合视觉、文本与语音信息，研究语音与声纹识别、人物动作识别、多模态事件图谱和智能体交互，将算法研究与实际场景中的系统研发相结合。",
-                  "Combining visual, textual, and speech information, we study speech and speaker recognition, human action recognition, multimodal event graphs, and agent interaction, connecting algorithms with system development for practical applications.",
-                )}
-              </p>
-            </article>
-          </div>
+          <p>
+            {t(
+              "围绕“石头”知识图谱平台、“沈思”多模态大模型、科学智能与科研装备，团队将算法研究与领域应用中的系统研发相结合。",
+              "Through the Shitou knowledge graph platform, Shensi multimodal model, AI for science, and scientific instruments, the team connects algorithm research with system development for domain applications.",
+            )}
+          </p>
+          <Link className="text-link" to="/collaboration">
+            {t("查看实践项目与合作单位", "Explore projects and collaborators")}
+            <ArrowRight size={15} />
+          </Link>
         </section>
       </div>
       {selected && (

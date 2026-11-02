@@ -11,6 +11,7 @@ import TeamPage from "./pages/TeamPage";
 import NewsPage, { NewsDetailPage } from "./pages/NewsPage";
 import JoinPage from "./pages/JoinPage";
 import ContactPage from "./pages/ContactPage";
+import CollaborationPage from "./pages/CollaborationPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 function Website() {
@@ -63,6 +64,7 @@ function Website() {
           <Route path="/research" element={<ResearchPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/publications" element={<PublicationsPage />} />
+          <Route path="/collaboration" element={<CollaborationPage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/news/:id" element={<NewsDetailPage />} />
           <Route path="/join" element={<JoinPage />} />

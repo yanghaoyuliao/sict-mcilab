@@ -30,7 +30,7 @@
 
 `id` 必须唯一；`group` 为 `faculty`、`secretary`、`phd` 或 `masters`。不要根据拼音猜中文名。照片确认后放到 `public/images/people/example-student.webp`，把 `image` 改为 `images/people/example-student.webp`。没有照片保持 `null`，网页会显示英文姓名首字母加浅绿色背景。成员在每个分组内按 JSON 中的顺序显示；分类人数自动计算。
 
-教师和秘书可增加双语 `bio` 简介和 `email` 邮箱，团队页、详情及联系方式页会自动显示。主要联系邮箱另在 `src/data/site.ts` 的 `email` 中维护，目前为于碧辉老师邮箱；更换时同时核对成员数据，确保首页、页脚和招生邮件收件人与教师信息一致。
+教师和秘书可增加双语 `bio` 简介和 `email` 邮箱，团队页、详情及联系方式页会自动显示。`homepage` 是已有主页链接；于老师显示为“国科大教师主页”。可选字段 `academicHomepage` 保存“个人学术主页”网址，成员卡片和详情会同时显示。主要联系邮箱另在 `src/data/site.ts` 的 `email` 中维护，目前为于碧辉老师邮箱；更换时同时核对成员数据，确保首页、页脚和招生邮件收件人与教师信息一致。
 
 推荐肖像比例 3:4，确保头像留有边距。网页会裁成同一比例，合照和新闻图片则完整显示。原件始终另存 `materials/incoming/日期/`。
 
@@ -58,7 +58,7 @@
 }
 ```
 
-替换照片时修改现有同 target 条目的 source，不重复追加。运行 `python scripts/sync_assets.py`。已有 WebP 原样复制，PNG/JPG 进行方向校正、缩放及 WebP 转换。处理记录写入 `materials/asset-report.json`。清单不是前端运行依赖；如果直接添加了发布图片，也要保留原件和来源说明。
+替换照片时修改现有同 target 条目的 source，不重复追加。运行 `python scripts/sync_assets.py`。已有 WebP 默认原样复制；大幅照片可在清单中添加 `"optimize": true`，按 maxWidth 缩放并压缩。复制过程不会继承原件的只读属性。PNG/JPG 进行方向校正、缩放及 WebP 转换。处理记录写入 `materials/asset-report.json`。清单不是前端运行依赖；如果直接添加了发布图片，也要保留原件和来源说明。
 
 ## 检查和交付
 
@@ -85,3 +85,9 @@ python scripts/import_publications.py "新工作簿.xlsx"
 合并时核对题名、年份、去重、来源 URL、团队相关作者及原文排序；历史成员署名也保留。`authorSource` 记录核对来源，`venueFull` 只填会议、期刊或预印本平台名。状态为“已发表”或“已录用”，与 published 布尔值对应。未确认 CCF 用 null。预印本按用户确认显示“已发表”、来源为 arXiv/SSRN；不要填写未经确认的会议或期刊。
 
 研究方向论文列表在 research.ts；新闻 paperId、首页精选和成员相关论文均依赖稳定 ID。导入后运行 npm run check，并在页面检查搜索、分类、导出和论文详情。当前出版信息待核项见 CONTENT.md。
+
+## 维护实践合作栏目
+
+`src/data/collaboration.ts` 中 `practices` 保存实践主题，含双语标题、介绍、应用实例、相关技术与配图。`sourceSlides` 记录所依据的原幻灯片页码，仅用于校对。`partnerGroups` 保存分类合作单位。不要把正在研究的技术写成已交付产品，也不要自行推断合作时间或成效数字。
+
+图片放 `public/images/collaboration/`，原件及来源先保存到 materials，并更新素材清单。推荐使用 PPT 内嵌原图，不截图整个幻灯片；页面按原始比例显示，点击可放大。增加主题后索引会自动更新；执行 `npm run check` 检查双语、来源页码和图片路径。

@@ -18,12 +18,20 @@ const importData = async (file) => {
     `data:text/javascript;base64,${Buffer.from(outputText).toString("base64")}`
   );
 };
-const [members, news, papers, manifest, { research }] = await Promise.all([
+const [
+  members,
+  news,
+  papers,
+  manifest,
+  { research },
+  { practices, partnerGroups },
+] = await Promise.all([
   readJson("src/data/members.json"),
   readJson("src/data/news.json"),
   readJson("src/data/publications.json"),
   readJson("materials/asset-manifest.json"),
   importData("src/data/research.ts"),
+  importData("src/data/collaboration.ts"),
 ]);
 const errors = [];
 const check = (condition, message) => {
@@ -74,6 +82,8 @@ uniqueIds(members, "members");
 uniqueIds(news, "news");
 uniqueIds(papers, "papers");
 uniqueIds(research, "research");
+uniqueIds(practices, "practices");
+uniqueIds(partnerGroups, "partner groups");
 const paperIds = new Set(papers.map((p) => p.id));
 for (const person of members) {
   check(
@@ -88,6 +98,37 @@ for (const person of members) {
   localized(person.interests, `${person.id} interests`);
   image(person.image, person.id);
   if (person.homepage) webUrl(person.homepage, person.id);
+  if (person.academicHomepage)
+    webUrl(person.academicHomepage, `${person.id} academic homepage`);
+}
+for (const practice of practices) {
+  localized(practice.title, `${practice.id} title`);
+  localized(practice.description, `${practice.id} description`);
+  localized(practice.technologies, `${practice.id} technologies`);
+  check(
+    practice.examples.length > 0 && practice.figures.length > 0,
+    `${practice.id}: missing examples or figures`,
+  );
+  check(
+    practice.sourceSlides.length > 0 &&
+      practice.sourceSlides.every(
+        (page) => Number.isInteger(page) && page >= 1 && page <= 16,
+      ),
+    `${practice.id}: invalid source slide`,
+  );
+  for (const example of practice.examples) {
+    localized(example.title, `${practice.id} example title`);
+    localized(example.body, `${practice.id} example body`);
+  }
+  for (const figure of practice.figures) {
+    image(figure.image, practice.id);
+    localized(figure.caption, `${practice.id} figure caption`);
+  }
+}
+for (const group of partnerGroups) {
+  localized(group.title, `${group.id} partner group`);
+  check(group.names.length > 0, `${group.id}: empty partner group`);
+  for (const name of group.names) localized(name, `${group.id} partner name`);
 }
 let previous = "9999-99-99";
 for (const item of news) {
@@ -189,6 +230,6 @@ if (errors.length) {
   process.exitCode = 1;
 } else {
   console.log(
-    `Content OK: ${members.length} people, ${news.length} articles, ${papers.length} publications, ${research.length} research areas, ${imagePaths.size} images.`,
+    `Content OK: ${members.length} people, ${news.length} articles, ${papers.length} publications, ${research.length} research areas, ${practices.length} practice areas, ${imagePaths.size} images.`,
   );
 }

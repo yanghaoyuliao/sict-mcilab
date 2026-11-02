@@ -14,9 +14,15 @@ for item in manifest:
     source = ROOT / item['source']
     destination = ROOT / 'public' / item['target']
     destination.parent.mkdir(parents=True, exist_ok=True)
-    if source.suffix == '.webp':
+    if source.suffix == '.webp' and not item.get('optimize', False):
         # Avoid recompressing the supplied member portraits.
-        shutil.copy2(source, destination)
+        # Copy through a writable staging file; supplied originals can be read-only.
+        temporary = destination.with_name(f'.{destination.name}.tmp')
+        try:
+            shutil.copyfile(source, temporary)
+            temporary.replace(destination)
+        finally:
+            temporary.unlink(missing_ok=True)
     else:
         with Image.open(source) as image:
             image = ImageOps.exif_transpose(image).convert('RGB')

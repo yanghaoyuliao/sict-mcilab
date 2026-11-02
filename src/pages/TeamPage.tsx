@@ -149,7 +149,18 @@ export default function TeamPage() {
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                {t("国科大个人主页", "UCAS profile")}
+                                {t("国科大教师主页", "UCAS faculty profile")}
+                                <ArrowUpRight size={14} />
+                              </a>
+                            )}
+                            {person.academicHomepage && (
+                              <a
+                                className="text-link"
+                                href={person.academicHomepage}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                {t("个人学术主页", "Academic homepage")}
                                 <ArrowUpRight size={14} />
                               </a>
                             )}
@@ -225,19 +236,32 @@ export default function TeamPage() {
               </Link>
             </>
           ) : null}
-          {selected.homepage && (
+          {(selected.homepage || selected.academicHomepage) && (
             <div className="dialog-actions">
-              <a
-                href={selected.homepage}
-                target="_blank"
-                rel="noreferrer"
-                className="text-link"
-              >
-                {selected.id === "bihui-yu"
-                  ? t("国科大个人主页", "UCAS profile")
-                  : t("个人主页（旧站）", "Personal website (previous site)")}
-                <ArrowUpRight size={14} />
-              </a>
+              {selected.homepage && (
+                <a
+                  href={selected.homepage}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  {selected.id === "bihui-yu"
+                    ? t("国科大教师主页", "UCAS faculty profile")
+                    : t("个人主页（旧站）", "Personal website (previous site)")}
+                  <ArrowUpRight size={14} />
+                </a>
+              )}
+              {selected.academicHomepage && (
+                <a
+                  href={selected.academicHomepage}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  {t("个人学术主页", "Academic homepage")}
+                  <ArrowUpRight size={14} />
+                </a>
+              )}
             </div>
           )}
         </Modal>
