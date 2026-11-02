@@ -128,8 +128,8 @@ export function Footer() {
             {t("招生与合作", "Admissions & collaboration")}
             <ArrowUpRight size={13} />
           </Link>
-          <a href={site.oldSite} target="_blank" rel="noreferrer">
-            {t("旧版网站", "Previous website")}
+          <a href={site.educationCenter} target="_blank" rel="noreferrer">
+            {t("研究所教育中心", "SICT Education Center")}
             <ArrowUpRight size={13} />
           </a>
         </div>

@@ -20,14 +20,14 @@ export const site = {
     en: "16 Nanping East Road, Shenyang, Liaoning, China",
   },
   postcode: "110168",
-  updated: "2026-11-01",
-  oldSite: "https://dracoxa.github.io/",
+  updated: "2026-11-02",
+  educationCenter: "http://yjs.sict.ac.cn/",
 };
 
 export const navigation = [
   { path: "/", label: { zh: "首页", en: "Home" } },
   { path: "/research", label: { zh: "研究方向", en: "Research" } },
-  { path: "/team", label: { zh: "团队成员", en: "People" } },
+  { path: "/team", label: { zh: "团队成员", en: "Members" } },
   { path: "/publications", label: { zh: "科研成果", en: "Publications" } },
   { path: "/news", label: { zh: "新闻动态", en: "News" } },
   { path: "/join", label: { zh: "加入我们", en: "Join us" } },

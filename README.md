@@ -2,7 +2,7 @@
 
 国科大 / 中科院沈阳计算技术研究所实验室双语官网。采用浅色、深蓝与青绿的学术排版，以真实合照、新闻与论文图为主。包含七个栏目、新闻全文与成员详情，适配电脑和手机。
 
-当前录入 **26 位成员、8 条新闻、21 项论文**。成员包含教师 2 位（研究员 1 位、副研究员 1 位）、博士研究生 4 位、硕士研究生 20 位；新闻包含新提供的 5 篇稿件及旧站 3 条动态。内容来源与校对事项见 [内容说明](docs/CONTENT.md)。
+当前录入 **28 位成员、12 条新闻、48 篇近三年论文（2024–2026）**。成员包括教师 2 位、实验室秘书 1 位、博士研究生 4 位、硕士研究生 21 位。内容来源与校对事项见 [内容说明](docs/CONTENT.md)。
 
 ## 快速打开
 
@@ -26,7 +26,6 @@ npm run dev
 | 论文目录                                 | `src/data/publications.json`                         |
 | 研究方向及论文关联                       | `src/data/research.ts`                               |
 | 实验室名称、机构和联系方式               | `src/data/site.ts`                                   |
-| 论文英文来源备注                         | `src/data/paper-notes.ts`                            |
 | 首页介绍                                 | `src/pages/HomePage.tsx`                             |
 | 首页精选论文与配图                       | `src/pages/PublicationsPage.tsx` 的 `FeaturedPapers` |
 | 招生说明                                 | `src/pages/JoinPage.tsx`                             |
@@ -93,7 +92,7 @@ python scripts/sync_assets.py
 npm run check
 ```
 
-Excel 默认位于 `materials/reference/sict_publications_ccf_ab_2026.xlsx`，也可向导入脚本传入另一份同格式工作簿路径。同题名保留原论文 ID；修改题名或删除论文后，应检查研究方向、新闻及精选论文关联。图片同步仅处理素材清单列出的文件，不会删除或修改原件。
+Excel 默认读取 `materials/incoming/2026-11-02/四位研究者_联合论文目录_2026-11-01.xlsx`，也可传入另一份工作簿，支持“论文总表”和“四人联合总表”。导入脚本仅生成 `.qa/imports/` 候选核对文件，**不会覆盖正式 publications.json**。逐条核对后再合并，保留已有 ID 和原文作者顺序。图片同步仅处理清单列出的文件，不修改原件。
 
 ## 部署
 

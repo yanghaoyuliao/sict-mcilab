@@ -12,7 +12,6 @@ import {
   X,
 } from "lucide-react";
 import records from "../data/publications.json";
-import { paperNotesEn } from "../data/paper-notes";
 import { research } from "../data/research";
 import { useLab, copyText } from "../context/LabContext";
 import { EmptyState, Modal, PageHeading } from "../components/ui";
@@ -25,12 +24,6 @@ export const publicationStats = {
   b: records.filter((p) => p.ccf === "B").length,
   published: records.filter((p) => p.published).length,
   accepted: records.filter((p) => !p.published).length,
-};
-const statusEn: Record<string, string> = {
-  正式发表: "Published",
-  作者确认录用: "Acceptance reported by authors",
-  "已录用，官方名单有题目": "Accepted · listed by conference",
-  "正式录用（期刊官网）": "Accepted · journal website",
 };
 export function PaperStatus({ paper }: { paper: Paper }) {
   const { t } = useLab();
@@ -50,7 +43,7 @@ export function PaperDetails({
   paper: Paper;
   onClose: () => void;
 }) {
-  const { t, lang, notify } = useLab();
+  const { t, notify } = useLab();
   const copyReference = async () => {
     const value = `${paper.title}. ${paper.venue}, ${paper.year}. ${paper.url}`;
     notify(
@@ -68,30 +61,27 @@ export function PaperDetails({
         <span className="venue-badge">
           {paper.venue} {paper.year}
         </span>
-        <span className="ccf-badge">CCF {paper.ccf}</span>
+        {paper.ccf && <span className="ccf-badge">CCF {paper.ccf}</span>}
         <PaperStatus paper={paper} />
       </div>
       <dl className="paper-details">
         <div>
-          <dt>{t("实验室相关作者", "Related lab authors")}</dt>
+          <dt>
+            {"authorOrderPending" in paper && paper.authorOrderPending
+              ? t(
+                  "实验室相关作者（顺序待核）",
+                  "Related lab authors (order pending verification)",
+                )
+              : t("实验室相关作者", "Related lab authors")}
+          </dt>
           <dd>{paper.authors.join(", ")}</dd>
-        </div>
-        <div>
-          <dt>{t("收录范围", "Authorship scope")}</dt>
-          <dd>
-            {t(
-              "以上为目录匹配的实验室作者，完整作者列表及排序请见论文原文。",
-              "These are lab authors matched in the source catalog. See the paper for the full author list and order.",
-            )}
-          </dd>
         </div>
         <div>
           <dt>{t("发表状态", "Publication status")}</dt>
           <dd>
-            {lang === "zh"
-              ? paper.status
-              : (statusEn[paper.status] ??
-                (paper.published ? "Published" : "Accepted"))}
+            {paper.published
+              ? t("已发表", "Published")
+              : t("已录用", "Accepted")}
           </dd>
         </div>
         <div>
@@ -105,13 +95,15 @@ export function PaperDetails({
         <div>
           <dt>{t("来源备注", "Source note")}</dt>
           <dd>
-            {lang === "zh"
-              ? paper.note
-              : (paperNotesEn[paper.id] ??
-                t(
-                  paper.note,
-                  "See the source catalog for verification notes.",
-                ))}
+            <a
+              className="text-link"
+              href={paper.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {paper.venueFull}
+              <ArrowUpRight size={14} />
+            </a>
           </dd>
         </div>
       </dl>
@@ -167,7 +159,9 @@ export function FeaturedPapers() {
                 <span className="venue-badge">
                   {paper.venue} {paper.year}
                 </span>
-                <span className="ccf-badge">CCF {paper.ccf}</span>
+                {paper.ccf && (
+                  <span className="ccf-badge">CCF {paper.ccf}</span>
+                )}
               </div>
               <h3>
                 <button onClick={() => setSelected(paper)}>
@@ -225,7 +219,7 @@ export default function PublicationsPage() {
           .toLowerCase()
           .includes(q.trim().toLowerCase())) &&
       (year === "all" || p.year === Number(year)) &&
-      (ccf === "all" || p.ccf === ccf) &&
+      (ccf === "all" || (ccf === "other" ? !p.ccf : p.ccf === ccf)) &&
       (status === "all" ||
         (status === "published" ? p.published : !p.published)) &&
       (topic === "all" || topicRecords?.includes(p.id)),
@@ -243,10 +237,7 @@ export default function PublicationsPage() {
         t("题名", "Title"),
         t("会议/期刊", "Venue"),
         "CCF",
-        t(
-          "实验室相关作者（非完整名单）",
-          "Related lab authors (not full list)",
-        ),
+        t("实验室相关作者（按原文顺序）", "Lab authors (in paper order)"),
         t("状态", "Status"),
         t("链接", "URL"),
       ],
@@ -254,12 +245,9 @@ export default function PublicationsPage() {
         p.year,
         p.title,
         p.venue,
-        p.ccf,
+        p.ccf ?? "",
         p.authors.join("; "),
-        t(
-          p.status,
-          statusEn[p.status] ?? (p.published ? "Published" : "Accepted"),
-        ),
+        p.published ? t("已发表", "Published") : t("已录用", "Accepted"),
         p.url,
       ]),
     ];
@@ -286,23 +274,16 @@ export default function PublicationsPage() {
         eyebrow="PUBLICATIONS"
         title={t("科研成果", "Publications")}
         description={t(
-          "按年份整理的论文目录，可按研究方向、会议和发表状态检索。",
-          "Publications by year, searchable by research area, venue, and publication status.",
+          "近三年（2024–2026）科研成果，包含已发表及已录用论文，可按研究方向、年份与发表状态检索。",
+          "Research publications from the past three years (2024–2026), including published and accepted work.",
         )}
       >
         <div className="heading-stat-row">
           <span>
             <strong>{publicationStats.total}</strong>
-            {t("项收录成果", "cataloged works")}
+            {t("篇论文", "publications")}
           </span>
-          <span>
-            <strong>{publicationStats.published}</strong>
-            {t("项已发表", "published")}
-          </span>
-          <span>
-            <strong>{publicationStats.accepted}</strong>
-            {t("项已录用", "accepted")}
-          </span>
+          <span>{t("近三年 · 2024–2026", "Past three years · 2024–2026")}</span>
         </div>
       </PageHeading>
       <div className="container page-content">
@@ -365,6 +346,7 @@ export default function PublicationsPage() {
                 <option value="all">{t("所有等级", "All tiers")}</option>
                 <option value="A">CCF A</option>
                 <option value="B">CCF B</option>
+                <option value="other">{t("其他", "Other")}</option>
               </select>
             </label>
             <label>
@@ -429,7 +411,9 @@ export default function PublicationsPage() {
                       <div className="paper-row-main">
                         <div className="paper-meta">
                           <span className="venue-badge">{p.venue}</span>
-                          <span className="ccf-badge">CCF {p.ccf}</span>
+                          {p.ccf && (
+                            <span className="ccf-badge">CCF {p.ccf}</span>
+                          )}
                           <PaperStatus paper={p} />
                           {p.affiliation === "合作论文" && (
                             <span className="collaboration-label">
@@ -475,8 +459,8 @@ export default function PublicationsPage() {
         )}
         <div className="source-footnote">
           {t(
-            "相关作者名单不代表完整作者排序。论文题名和原文链接保留来源记录；正式出版信息请以出版方为准。",
-            "Related lab authors are not a complete or ordered author list. Titles and links follow the source catalog; final publication information is determined by the publisher.",
+            "本页汇总近三年（2024–2026）成果；实验室相关作者按原文顺序整理，包含往届成员，个别待核条目在详情中注明。",
+            "This list covers 2024–2026. Lab authors are listed in paper order, including former members; outstanding author-order checks are marked in the details.",
           )}{" "}
           <Link to="/contact">
             {t("联系我们更正信息", "Contact us about a correction")}

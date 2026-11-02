@@ -11,3 +11,6 @@ __pycache__/
 archive/
 materials/reference/
 materials/incoming/
+# User-supplied originals are backed up under materials/incoming/2026-11-02/.
+/四位研究者_联合论文目录_2026-11-01.xlsx
+/多模态认知智能团队介绍 v4.0_20250710(1).pptx

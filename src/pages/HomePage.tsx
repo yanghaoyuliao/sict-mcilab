@@ -43,7 +43,7 @@ export default function HomePage() {
               <ArrowRight size={15} />
             </Link>
             <Link className="text-link" to="/team">
-              {t("团队成员", "People")}
+              {t("团队成员", "Members")}
               <ArrowRight size={15} />
             </Link>
           </div>
@@ -133,6 +133,68 @@ export default function HomePage() {
           linkText={t("全部成果", "All publications")}
         />
         <FeaturedPapers />
+      </section>
+      <section className="lab-section">
+        <div className="container">
+          <SectionHeading
+            title={t("科研平台与合作", "Research environment & collaboration")}
+            en={lang === "zh" ? "Our lab" : undefined}
+            to="/research"
+            linkText={t("了解研究工作", "Explore our research")}
+          />
+          <div className="lab-overview">
+            <h3>
+              {t(
+                "从多模态研究到工程实践",
+                "From multimodal research to engineering",
+              )}
+            </h3>
+            <div>
+              <p>
+                {t(
+                  "实验室依托辽宁省多模态智能识别工程研究中心，以多模态技术为主线，开展知识图谱与大模型融合研究，探索科研装备、科技文献处理与行业应用中的工程化方法。",
+                  "Supported by the Liaoning Engineering Research Center for Multimodal Intelligent Recognition, we study the integration of knowledge graphs and large models, with applications in scientific instruments, scientific literature, and industry.",
+                )}
+              </p>
+              <p>
+                {t(
+                  "团队与中国科学院自动化研究所、金属研究所、文献情报中心，以及哈尔滨工业大学、西湖大学等单位开展科研合作，与产业伙伴保持技术交流。",
+                  "Our research collaborations include the CAS Institute of Automation, Institute of Metal Research, National Science Library, Harbin Institute of Technology, and Westlake University. We also exchange ideas and technical experience with industry partners.",
+                )}
+              </p>
+            </div>
+          </div>
+          <div className="lab-gallery">
+            {[
+              [
+                "instrument-collaboration",
+                t(
+                  "科研装备与技术交流",
+                  "Scientific instruments & technical exchange",
+                ),
+              ],
+              [
+                "academic-exchange",
+                t("学术交流与合作", "Academic exchange & collaboration"),
+              ],
+              [
+                "lab-meeting",
+                t("组会与研究讨论", "Lab meetings & research discussions"),
+              ],
+            ].map(([file, caption]) => (
+              <figure key={file}>
+                <img
+                  src={asset(`images/lab/${file}.webp`)}
+                  alt={caption}
+                  loading="lazy"
+                  width="640"
+                  height="480"
+                />
+                <figcaption>{caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
       </section>
     </>
   );

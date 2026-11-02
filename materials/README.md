@@ -1,13 +1,12 @@
 # 素材资料库
 
-- `incoming/2026-11-01/images/`：从原 `dist/images/` 保存的新增成员照片、已有图片原件，以及 `ucas.webp` 和 `sict.webp` 机构标识。
-- `incoming/2026-11-01/news/`：从原 `dist/news/` 保存的五篇新闻稿和配图，原文件夹名、文件名及稿件保留。
-- `reference/legacy-website/`：旧网站源码，原目录名 `dracoxa.github.io-main`。
-- `reference/legacy-website.zip`：旧站原 ZIP。
-- `reference/sict_publications_ccf_ab_2026.xlsx`：原论文工作簿。
-- `asset-manifest.json`：原件与整理后网页图片的映射；记录稿件与图片目录互换等修正。
-- `asset-report.json`：图片同步时生成，包含来源 SHA-256 和发布文件大小。
+- `incoming/2026-11-01/`：首轮成员、机构标识、五篇新闻稿与配图原件。
+- `incoming/2026-11-02/images/`：本轮从用户 dist/images 安全备份的全部 94 份文件，包含成员照片、lab 活动图片、7 个新闻目录及 text.txt。
+- `incoming/2026-11-02/`：本轮 PPT、联合论文目录及修改前 members-before.json。根目录用户原始文件保留，Git 忽略。
+- `reference/`：旧网站源码、ZIP 和初始论文表。
+- `asset-manifest.json`：每张网页图片的来源、目标路径及说明，目标不可重复。
+- `asset-report.json`：同步时生成的来源 SHA-256 和发布文件大小。
 
-新素材按日期放入 incoming。网页使用 public/images 中的版本，materials 不会部署。原始二进制资料未默认纳入 Git，需要单独备份或通过团队选定的共享方式保存。
+网页只发布 `public/images/` 中整理后的图片。原始二进制资料和 archive 不上传 Git，需要独立备份。已换照片直接更新同一个目标的来源，不叠加重复映射。成员字母头像由代码生成；董洁本轮已有照片，卜立平老师仍使用字母头像。
 
-姓名确认：用户已确认王杏月 / Xinyue Wang，原照片名 xingyue-wang.webp。董洁按“暂无照片”处理，网页显示姓名首字母加有色背景；incoming 中同名照片保留，但不用于网站。
+用户原件不要再放 dist：构建会清空并重建 dist。本轮构建前已把用户新增资料完整保存到 incoming。

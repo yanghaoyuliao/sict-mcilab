@@ -22,6 +22,7 @@
 }
 body {
   margin: 0;
+  font-size: 16px;
 }
 button,
 input,
@@ -75,6 +76,21 @@ select,
 summary {
   outline-offset: 4px;
 }
+a,
+button {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+.button {
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease;
+}
+.button:hover {
+  transform: translateY(-2px);
+}
 :focus-visible {
   outline: 2px solid var(--teal);
 }
@@ -86,7 +102,7 @@ main {
   outline: none;
 }
 .container {
-  width: min(1180px, calc(100% - 64px));
+  width: min(1240px, calc(100% - 64px));
   margin-inline: auto;
 }
 .text-link {
@@ -94,7 +110,7 @@ main {
   align-items: center;
   gap: 7px;
   color: var(--teal);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 .text-link:hover {
@@ -108,7 +124,7 @@ main {
   gap: 9px;
   min-height: 42px;
   padding: 9px 17px;
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid transparent;
   border-radius: 2px;
   line-height: 1.5;
@@ -142,7 +158,7 @@ main {
 .section-label,
 .eyebrow {
   color: var(--teal);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.055em;
   line-height: 1.6;
 }
@@ -156,20 +172,20 @@ main {
   margin-bottom: 6px;
 }
 .section-heading h2 {
-  font-size: 23px;
+  font-size: 25px;
   font-family: var(--serif);
 }
 .section-heading h2 > span {
   margin-left: 13px;
   color: #8b969d;
   font:
-    400 13px -apple-system,
+    400 15px -apple-system,
     BlinkMacSystemFont,
     sans-serif;
 }
 .section-heading > a {
   white-space: nowrap;
-  font-size: 13px;
+  font-size: 15px;
 }
 .page-heading {
   border-bottom: 1px solid var(--line);
@@ -180,7 +196,7 @@ main {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   margin-bottom: 22px;
 }
@@ -189,13 +205,13 @@ main {
 }
 .page-heading h1 {
   font-family: var(--serif);
-  font-size: 33px;
+  font-size: 36px;
   line-height: 1.5;
   margin-bottom: 8px;
 }
 .page-heading > .container > p {
   max-width: 850px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--muted);
 }
 .page-content {
@@ -236,7 +252,7 @@ main {
   width: 100%;
   padding: 10px 0;
   color: var(--ink);
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
 }
 .filter-tabs {
@@ -247,7 +263,7 @@ main {
 }
 .filter-tabs button {
   padding: 12px 0;
-  font-size: 14px;
+  font-size: 16px;
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
   color: var(--muted);
@@ -262,7 +278,7 @@ main {
 }
 .filter-tabs button > span {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 8px;
   font-weight: 400;
   color: #89959c;
@@ -271,7 +287,7 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   margin-block: 18px;
 }
@@ -280,7 +296,7 @@ main {
   padding-top: 20px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 .source-footnote a {
@@ -311,7 +327,7 @@ main {
   margin-bottom: 22px;
 }
 .dialog-heading h2 {
-  font-size: 21px;
+  font-size: 23px;
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
@@ -339,10 +355,10 @@ main {
   border: 1px solid var(--line);
 }
 .empty-state h3 {
-  font-size: 19px;
+  font-size: 21px;
 }
 .empty-state p {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--muted);
   margin: 10px 0 18px;
 }
@@ -354,7 +370,7 @@ main {
   background: var(--navy);
   color: white;
   padding: 12px 22px;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 3px;
   opacity: 0;
   pointer-events: none;

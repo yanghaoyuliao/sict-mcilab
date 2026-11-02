@@ -1,5 +1,69 @@
 [
   {
+    "id": "ai4s-qingdao-2026",
+    "date": "2026-05-27",
+    "title": {
+      "zh": "于碧辉研究员参加青岛能源所“AI for Science”交流会并作报告",
+      "en": "Bihui Yu presents at the Qingdao Institute of Bioenergy and Bioprocess Technology’s AI for Science meeting"
+    },
+    "summary": {
+      "zh": "围绕“人工智能浪潮下的自动化科研”，分享多模态认知智能、科研图表处理与可验证推理的研究进展。",
+      "en": "The talk, “Automated Research in the AI Wave,” presented work on multimodal intelligence, scientific charts, and verifiable reasoning."
+    },
+    "venue": "AI for Science",
+    "category": {
+      "zh": "学术交流",
+      "en": "Academic exchange"
+    },
+    "paperId": null,
+    "paperTitle": null,
+    "image": "images/news/ai4s-qingdao-2026/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2026-05-27",
+    "source": null,
+    "byline": null,
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "5月27日，沈阳计算于碧辉研究员参加青岛能源所建所20周年“AI for Science”务虚交流会，作“人工智能浪潮下的自动化科研”专题报告。",
+          "en": "On May 27, research professor Bihui Yu from SICT attended an AI for Science discussion meeting marking the 20th anniversary of the Qingdao Institute of Bioenergy and Bioprocess Technology. He presented a talk titled “Automated Research in the AI Wave.”"
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "报告中阐释了大模型的发展历程及人工智能的体系，以结构化方法深度解析大模型的核心技术与多场景应用，分享了多模态认知智能的科技创新成果与最新研究进展，表达了拓展思维、相互研讨、相互促进的共同愿景。",
+          "en": "The talk reviewed the development of large models and the broader AI landscape, explaining core technologies and applications through a structured approach. It shared advances from the team’s multimodal cognitive intelligence research and encouraged open discussion and mutual learning."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "在人工智能赋能科学研究领域方面，于碧辉探讨了使用自研智能体模块与训练框架，助力科研图表的高精度可编辑生成、图表关键内容识别的精准输出、引文的溯源定位，为构建科研图表可视化、内容可自审计、源头可验证推理的学术方面大语言模型提供新思路。基础研究方面，于碧辉及其团队提出了面向几何交错推理的强化学习框架，助力数学推理解题；针对科研排版的痛点问题，建立二维页面视觉判断模型，智能化优化版面流动，节省了科研人员的宝贵时间，同时为期刊、著作版面设计提供新角度。",
+          "en": "For AI-assisted science, Bihui Yu discussed the team’s agent modules and training frameworks for accurately generating editable scientific diagrams, extracting chart content, and locating citation provenance. These studies offer approaches to scientific language models with visualized charts, auditable content, and verifiable evidence. In fundamental research, the team has developed reinforcement-learning methods for geometric interleaved reasoning. To address scientific typesetting challenges, it also studies two-dimensional visual page assessment and automated layout optimization, saving researchers time and offering new approaches to journal and book design."
+        },
+        "image": "images/news/ai4s-qingdao-2026/figure-1.webp",
+        "caption": {
+          "zh": "于碧辉研究员作报告",
+          "en": "Bihui Yu presents at the meeting"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "会上各参会人员各抒己见、前瞻研判，围绕“AI for Science”的关键核心技术、产业落地实践及长远发展深入探讨，凝聚共识。",
+          "en": "Participants exchanged views on core AI for Science technologies, industrial applications, and longer-term development, discussing opportunities for future work."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
     "id": "genprove-2026",
     "date": "2026-05-06",
     "title": {
@@ -97,7 +161,7 @@
       "zh": "科研进展",
       "en": "Research"
     },
-    "paperId": null,
+    "paperId": "paper-33",
     "paperTitle": "Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration",
     "image": "images/news/dysql-bench-2026/figure-1.webp",
     "sourceFolder": "2026-05-06-2",
@@ -164,7 +228,7 @@
       "zh": "科研进展",
       "en": "Research"
     },
-    "paperId": null,
+    "paperId": "paper-37",
     "paperTitle": "Training Verifier to Assessing Complex Real-World Tool-Use Trajectories",
     "image": "images/news/tool-verifier-2026/figure-1.webp",
     "sourceFolder": "2026-05-06-3",
@@ -347,33 +411,93 @@
     ]
   },
   {
-    "id": "researchpulse-2025",
-    "date": "2025-10-20",
+    "id": "pager-2026",
+    "date": "2026-03-01",
     "title": {
-      "zh": "ResearchPulse 研究成果发表于 ACM MM 2025",
-      "en": "ResearchPulse at ACM Multimedia 2025"
+      "zh": "PAGER：跨越几何 GUI 控制中的语义—执行鸿沟",
+      "en": "PAGER: bridging the semantic–execution gap in geometric GUI control"
     },
     "summary": {
-      "zh": "通过多文档科学推理组织方法与实验之间的关系。",
-      "en": "Connecting methods and experiments through multi-document scientific inference."
+      "zh": "合作论文获 NeurIPS 录用，提出 PAGE Bench 与 PAGER，将 GUI 智能体的研究推进到连续画布上的点级精确控制。",
+      "en": "Accepted at NeurIPS, PAGE Bench and PAGER study point-precise geometric construction on continuous GUI canvases."
     },
-    "venue": "ACM MM 2025",
+    "venue": "NeurIPS",
     "category": {
-      "zh": "学术交流",
-      "en": "Conference"
+      "zh": "科研进展",
+      "en": "Research update"
     },
-    "paperId": "paper-14",
+    "paperId": "paper-09",
     "paperTitle": null,
-    "image": "images/news/legacy/news-acmmm.webp",
-    "sourceFolder": null,
-    "source": "https://dracoxa.github.io/event/aclmm/",
+    "image": "images/news/pager-2026/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2026-03-01",
+    "source": null,
     "byline": null,
     "sections": [
       {
         "heading": null,
         "body": {
-          "zh": "ResearchPulse: Building Method–Experiment Chains through Multi-Document Scientific Inference 作为 ACM MM 2025 Regular Paper 发表。研究通过多篇科学文献之间的关联推理，组织方法与实验信息。会议于 2025 年 10 月 20—24 日在爱尔兰都柏林举行。",
-          "en": "ResearchPulse: Building Method–Experiment Chains through Multi-Document Scientific Inference appeared as a Regular Paper at ACM MM 2025. It connects methods and experiments through reasoning across scientific documents. The conference was held in Dublin, Ireland, on October 20–24, 2025."
+          "zh": "近日，实验室合作完成的论文被NeurIPS录用。该工作聚焦GUI智能体在连续画布上的精确几何构造，提出“precision-sensitive GUI tasks（精确敏感GUI任务）”这一新任务形态，并发布PAGE Bench基准与PAGER框架，试图回答一个被传统GUI基准掩盖的问题：当智能体不再只是“点中一个按钮”，而是必须在连续画布上“点准一个点”时，它还能可靠工作吗？",
+          "en": "A collaborative paper from the lab was accepted at NeurIPS. It studies precise geometric construction by GUI agents on continuous canvases, introducing precision-sensitive GUI tasks, the PAGE Bench benchmark, and the PAGER framework. The work asks whether agents can act reliably when they must select a precise point on a canvas rather than merely hit a button."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "论文指出，现有GUI智能体主要依赖“区域容忍”交互范式：按钮、链接、输入框等组件附近许多像素都可视为有效操作区域，成功与否更多取决于组件选择和工作流完成。但精确几何构造改变了成功几何：动作必须落在连续画布上的精确点，且点、线、圆、多边形、标签之间存在本体依赖。一个局部坐标误差会沿依赖链级联，改变所有依赖它的线段、圆、交点、角度或多边形，最终导致构造失效。研究将这一能力缺口概括为“语义—执行鸿沟”：模型往往能选对操作类型，却难以维持连续参数精度。实验显示，部分强通用多模态模型动作类型准确率可超过88%，但任务成功率仍低于6%。",
+          "en": "Existing GUI agents largely follow a region-tolerant interaction paradigm: many pixels near a button, link, or input field can be valid targets, so success depends mainly on choosing the right component and completing a workflow. Precise geometric construction changes this requirement. Actions must hit exact points, and points, lines, circles, polygons, and labels depend on one another. A local coordinate error can cascade into invalid segments, circles, intersections, angles, or polygons. The paper calls this the semantic–execution gap: models may choose the correct action type but fail to preserve continuous-parameter precision. Some strong general multimodal models exceed 88% action-type accuracy while achieving less than 6% task success."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "为量化该问题，团队构建了PAGE Bench。该基准包含4,906道几何问题、53,277个高层构造任务和224,497个像素级GUI动作，提供过程监督轨迹、像素级几何标注，并从过程正确性、参数精度和最终几何有效性等维度评估智能体。数据中点击与绘制动作占88.03%，平均每题包含10.86个任务、45.76个动作，形成较长的依赖链，使早期执行误差可能影响后续对象。",
+          "en": "PAGE Bench contains 4,906 geometry problems, 53,277 high-level construction tasks, and 224,497 pixel-level GUI actions. It provides process-supervision trajectories and pixel-level geometric annotations, evaluating process correctness, parameter precision, and final geometric validity. Clicks and drawing actions account for 88.03% of the data. Each problem averages 10.86 tasks and 45.76 actions, creating long dependency chains through which early errors can propagate."
+        },
+        "image": "images/news/pager-2026/figure-1.webp",
+        "caption": {
+          "zh": "图1. PAGER概述",
+          "en": "PAGER framework"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "方法上，PAGER将几何构造分解为依赖结构化规划与像素级执行：规划模块生成构造图，并给出拓扑有效的子任务顺序；执行模块在当前画布状态下，将每个子任务落地为具体GUI动作。训练分为两个阶段：像素接地监督微调首先建立可执行动作语法和顺序绘制行为；精度对齐强化学习随后以动作类型正确性、参数精度和渲染几何有效性为反馈，缓解模仿学习中的曝光偏差，直接针对点级精度瓶颈优化。",
+          "en": "PAGER separates construction into dependency-structured planning and pixel-level execution. The planner generates a construction graph and a topologically valid subtask order. The executor grounds each subtask in GUI actions on the current canvas. Training begins with pixel-grounded supervised fine-tuning to learn executable action syntax and sequential drawing. Precision-aligned reinforcement learning then uses action-type correctness, parameter precision, and rendered geometric validity as feedback, addressing exposure bias and optimizing point-level accuracy."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验结果表明，PAGER在PAGE Bench上Overall得分29.52，较最强通用基线Gemini-3.1-Pro提升5.15分，提升约21.1%；任务成功率23.78，约为后者的4.1倍；步骤成功率从GUI专门智能体低于9%提升至62.20。消融实验进一步显示，参数精度奖励是连续空间控制的关键，动作类型奖励稳定语义执行顺序，两者结合取得最佳任务级性能。人类评分与自动评测高度相关（r=0.9397），表明指标提升与专家感知的正确性具有较强一致性。",
+          "en": "PAGER achieves an Overall score of 29.52 on PAGE Bench, 5.15 points, or about 21.1%, above the strongest general baseline, Gemini-3.1-Pro. Its task success rate is 23.78, approximately 4.1 times the baseline’s, while step success reaches 62.20, compared with below 9% for specialized GUI agents. Ablations indicate that parameter-precision rewards are central to continuous control, while action-type rewards stabilize execution order; combining both gives the best task-level performance. Human scores correlate strongly with automatic evaluation (r = 0.9397)."
+        },
+        "image": "images/news/pager-2026/figure-2.webp",
+        "caption": {
+          "zh": "图2. PAGE Bench数据集构建",
+          "en": "PAGE Bench construction"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "论文认为，该工作将GUI智能体从组件级区域选择推进到点级精确控制，为CAD、图表编辑、科学可视化等精确敏感界面提供了可借鉴的思路。当前研究聚焦GeoGebra式平面几何构造，未来仍需扩展动作语法、环境适配器和有效性规则，以覆盖更广泛的精确敏感交互场景。",
+          "en": "The work extends GUI-agent research from component-level region selection to point-level precise control, with potential relevance to CAD, chart editing, and scientific visualization. It currently focuses on GeoGebra-style plane geometry. Broader applications will require extensions to the action syntax, environment adapters, and validity rules."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "论文合作单位包括中国科学院大学、上海人工智能实验室和中国石油大学（北京），通讯作者为于碧辉。",
+          "en": "Collaborating institutions include the University of Chinese Academy of Sciences, Shanghai Artificial Intelligence Laboratory, and China University of Petroleum (Beijing). Bihui Yu is the corresponding author."
         },
         "image": null,
         "caption": null
@@ -381,33 +505,179 @@
     ]
   },
   {
-    "id": "mmverify-2025",
-    "date": "2025-07-30",
+    "id": "chartmind-2025",
+    "date": "2025-12-10",
     "title": {
-      "zh": "MM-Verify：以思维链验证增强多模态推理",
-      "en": "MM-Verify: chain-of-thought verification for multimodal reasoning"
+      "zh": "ChartMind：面向真实场景的中英双语开放式图表问答",
+      "en": "ChartMind: bilingual, open-ended chart question answering for real-world scenarios"
     },
     "summary": {
-      "zh": "相关成果发表于 ACL 2025 主会长文。",
-      "en": "Published as an ACL 2025 main-conference long paper."
+      "zh": "发表于 EMNLP 2025，以七类高层次任务评估复杂图表理解，并提出结构化降噪框架 ChartLLM。",
+      "en": "Published at EMNLP 2025, ChartMind evaluates seven high-level task forms, while ChartLLM reduces noise through structured chart context."
     },
-    "venue": "ACL 2025",
+    "venue": "EMNLP 2025",
     "category": {
-      "zh": "学术交流",
-      "en": "Conference"
+      "zh": "科研进展",
+      "en": "Research update"
     },
-    "paperId": "paper-13",
+    "paperId": "paper-17",
     "paperTitle": null,
-    "image": "images/news/legacy/news-acl.webp",
-    "sourceFolder": null,
-    "source": "https://dracoxa.github.io/event/acl2025/",
+    "image": "images/news/chartmind-2025/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2025-12-10",
+    "source": null,
     "byline": null,
     "sections": [
       {
         "heading": null,
         "body": {
-          "zh": "MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification 发表于 ACL 2025 主会长文。该工作探索利用思维链验证提升多模态推理能力。会议于 2025 年 7 月 30 日至 8 月 3 日在奥地利维也纳举行。",
-          "en": "MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification appeared as an ACL 2025 main-conference long paper. It studies chain-of-thought verification for multimodal reasoning. The conference was held in Vienna, Austria, from July 30 to August 3, 2025."
+          "zh": "图表问答（Chart Question Answering, CQA）是评估多模态模型在数据理解与推理能力方面的重要任务，在科研分析、商业决策和数据解读等实际场景中具有广泛应用价值。然而，现有多数图表问答评测基准仍以固定答案格式与客观指标为主，主要覆盖数值抽取与简单事实判断，难以反映真实世界中常见的趋势分析、总结归纳与决策建议等复杂需求。",
+          "en": "Chart Question Answering (CQA) evaluates multimodal models’ ability to understand and reason about data, with applications in scientific analysis, business decisions, and data interpretation. Most existing benchmarks emphasize fixed answer formats and objective metrics, primarily testing numeric extraction and simple factual judgments. They do not adequately reflect real-world needs such as trend analysis, synthesis, and decision recommendations."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "针对上述问题，该研究提出 ChartMind，一个面向真实应用场景的多模态图表问答综合评测基准。该基准覆盖多种常见图表类型与七类高层次任务形式，支持中英文双语输入与开放式文本输出，显著拓展了图表问答从“读数型问题”向“分析型与生成型理解”的评测边界。通过引入更长文本答案与多样化问题设计，ChartMind 能够更全面地刻画多模态大模型在真实图表理解任务中的综合能力。",
+          "en": "The team introduces ChartMind, a comprehensive multimodal CQA benchmark for real-world applications. It covers common chart types and seven high-level task forms, supporting Chinese and English inputs with open-ended text answers. Longer answers and diverse questions extend evaluation from reading values to analytical and generative understanding, providing a broader view of multimodal models’ chart comprehension."
+        },
+        "image": "images/news/chartmind-2025/figure-1.webp",
+        "caption": {
+          "zh": "图1.当前CQA基准的主要挑战",
+          "en": "Challenges in existing chart QA benchmarks"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "在此基础上，该研究进一步提出 ChartLLM 框架，通过对图表中的关键信息要素（如标题、图例与坐标轴）进行结构化建模，为多模态模型提供更加清晰、聚焦的上下文输入。不同于依赖复杂推理模板或逐步分解的方式，ChartLLM 强调在推理前阶段减少噪声与冗余信息，从而提升模型在复杂图表问答任务中的稳定性与一致性。大量实验结果表明，该框架在多类主流多模态模型上均能有效提升其在复杂图表问答任务中的整体表现。",
+          "en": "The work also proposes ChartLLM, which structures key chart elements such as titles, legends, and axes to give multimodal models clearer, more focused context. It reduces noise and redundant information before reasoning, improving stability and consistency without relying on complex reasoning templates or stepwise decomposition. Experiments across several mainstream multimodal models demonstrate gains on complex chart question answering."
+        },
+        "image": "images/news/chartmind-2025/figure-2.webp",
+        "caption": {
+          "zh": "图2.ChartMind中包含的七种图表类型和七个推理任务的概述",
+          "en": "ChartMind chart types and reasoning tasks"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "该成果以ChartMind: A Comprehensive Benchmark for Complex Real-world Multimodal Chart Question Answering为题发表于自然语言处理领域的国际顶级学术会议之一Conference on Empirical Methods in Natural Language Processing（EMNLP 2025）博士研究生魏靖烜等为第一作者。",
+          "en": "The paper, ChartMind: A Comprehensive Benchmark for Complex Real-world Multimodal Chart Question Answering, was published at the Conference on Empirical Methods in Natural Language Processing (EMNLP 2025). PhD student Jingxuan Wei is among the first authors."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "id": "researchpulse-2025",
+    "date": "2025-11-20",
+    "title": {
+      "zh": "ResearchPulse：以多文档科学推理构建方法—实验链",
+      "en": "ResearchPulse: building method–experiment chains through multi-document scientific inference"
+    },
+    "summary": {
+      "zh": "发表于 ACM MM 2025，三个协同智能体从相关论文中提取方法脉络与实验结果，并生成结构化可视化。",
+      "en": "Published at ACM MM 2025, three coordinated agents extract methodological developments and experimental results from related papers."
+    },
+    "venue": "ACM MM 2025",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research update"
+    },
+    "paperId": "paper-14",
+    "paperTitle": null,
+    "image": "images/news/researchpulse-2025/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2025-11-20",
+    "source": null,
+    "byline": null,
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "理解科学思想的演变不仅仅是对单篇论文的总结，更需要对主题相关的研究进行结构化的跨文档推理。现有的总结模型或自动综述生成器通常侧重于压缩单篇论文或生成高层概览，缺乏揭示方法论轨迹和基准变迁所需的粒度。为此，该研究正式定义了“多文档科学推理”（Multi-Document Scientific Inference）这一新任务，旨在提取并对齐相关论文中的动机、方法和实验结果，以重构研究发展链条。该任务面临着时间对齐结构松散的方法描述以及标准化异构实验表格等核心挑战。",
+          "en": "Understanding how scientific ideas evolve requires structured reasoning across related documents, beyond summarizing individual papers. Existing summarization and review-generation systems often compress papers or provide high-level overviews without enough detail to trace methods and benchmark changes. This work defines Multi-Document Scientific Inference, which extracts and aligns motivations, methods, and experimental results across papers to reconstruct research development chains. Key challenges include temporally aligning loosely structured method descriptions and standardizing heterogeneous experimental tables."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "为了解决这些问题，团队提出了ResearchPulse，这是一个集成了指令规划、科学内容提取和结构化可视化的代理（Agent）框架。该系统包含三个协调工作的智能体：负责任务分解的Plan Agent、构建动机-方法思维导图的Mmap-Agent，以及合成实验折线图的Lchart-Agent。此外，团队还构建了ResearchPulse-Bench，这是一个包含注释论文簇的引文感知基准数据集，用于支持方法追踪和实验分析任务。实验结果表明，尽管使用了7B规模的智能体，ResearchPulse在语义对齐、结构一致性和视觉保真度方面均优于GPT-4o等强基线模型。",
+          "en": "The team proposes ResearchPulse, an agent framework combining instruction planning, scientific content extraction, and structured visualization. Its three coordinated agents are the Plan Agent for task decomposition, Mmap-Agent for motivation–method mind maps, and Lchart-Agent for experimental line charts. ResearchPulse-Bench provides annotated paper clusters and citation-aware evaluation for method tracking and experimental analysis. Experiments show that the system, despite using 7B-scale agents, outperforms strong baselines such as GPT-4o in semantic alignment, structural consistency, and visual fidelity."
+        },
+        "image": "images/news/researchpulse-2025/figure-1.webp",
+        "caption": {
+          "zh": "ResearchPulse将科学论文转化为思维导图和折线图，用于结构化的研究跟踪",
+          "en": "ResearchPulse visualizations"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "该成果以 ResearchPulse: Building Method-Experiment Chains through Multi-Document Scientific Inference 为题发表于 ACM International Conference on Multimedia（ACM MM 2025）。陈奇为第一作者，魏靖烜、姚卓娅、王海广、伍高巍、于碧辉等参与该项研究。",
+          "en": "The paper, ResearchPulse: Building Method-Experiment Chains through Multi-Document Scientific Inference, was published at the ACM International Conference on Multimedia (ACM MM 2025). Qi Chen is the first author; Jingxuan Wei, Zhuoya Yao, Haiguang Wang, Gaowei Wu, and Bihui Yu are among the lab’s contributing authors."
+        },
+        "image": "images/news/researchpulse-2025/figure-2.webp",
+        "caption": {
+          "zh": "ResearchPulse管道由三个主要代理组成：计划代理、Mmap代理和Lchart代理",
+          "en": "ResearchPulse framework"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mmverify-2025",
+    "date": "2025-11-10",
+    "title": {
+      "zh": "MM-Verify：以两阶段验证数据合成增强多模态推理",
+      "en": "MM-Verify: strengthening multimodal reasoning with two-stage verification data synthesis"
+    },
+    "summary": {
+      "zh": "发表于 ACL 2025，通过树搜索与拒绝采样构建长链思维验证数据，训练多模态验证器。",
+      "en": "Published at ACL 2025, the work combines tree search and rejection sampling to train multimodal chain-of-thought verifiers."
+    },
+    "venue": "ACL 2025",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research update"
+    },
+    "paperId": "paper-13",
+    "paperTitle": null,
+    "image": "images/news/mmverify-2025/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2025-11-10",
+    "source": null,
+    "byline": null,
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "将\"慢思考\"与验证机制相结合的做法已被证明对大语言模型(LLMs)行之有效。然而，当前多模态(MM)领域尚缺乏强大的多模态验证器。纯文本大语言模型中采用的自校准方法，在多模态场景下往往难以提升性能。开发专门适用于多模态任务的鲁棒验证器至关重要。除此之外，缺乏长链思维推理数据仍是一个重大挑战。尽管DeepSeek-R1等模型已展现了长链思维数据的强大潜力，但当前多数多模态数学数据集仍缺乏这种长链条推理步骤。团队通过合成方法来生成长链思维数据，以弥补这一空白。",
+          "en": "Combining deliberate reasoning with verification has proved effective for large language models. Multimodal tasks, however, still lack strong dedicated verifiers, and self-calibration methods from text-only models often fail to improve multimodal performance. Long chain-of-thought data are also scarce. Although models such as DeepSeek-R1 demonstrate their potential, most multimodal mathematics datasets lack extended reasoning steps. The team investigates synthetic data to address this gap."
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "针对以上问题，团队提出一种两阶段流程，用以合成高质量的验证数据。在阶段一，采用基于模拟的树搜索算法来生成多样化的推理路径（包括正确和错误路径）。这些路径由GPT-4o进行验证，从而创建用于训练第一阶段验证器的初始标注数据集；在阶段二，为降低成本并提升可扩展性，采用第一阶段验证器，通过拒绝采样机制对模型自生成的解决方案进行筛选。由此获得规模更大、质量更优的数据集用于微调，最终训练出更鲁棒的多模态验证器。",
+          "en": "The proposed pipeline synthesizes verification data in two stages. First, simulation-based tree search generates diverse correct and incorrect reasoning paths. GPT-4o verifies these paths to create an initial labeled dataset for a first-stage verifier. Second, this verifier screens model-generated solutions through rejection sampling, reducing cost and improving scalability. The resulting larger, higher-quality dataset is used for fine-tuning a more robust multimodal verifier."
+        },
+        "image": "images/news/mmverify-2025/figure-1.webp",
+        "caption": {
+          "zh": "合成MM Verifier数据的管道",
+          "en": "MM-Verify data synthesis pipeline"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "该成果以MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification为题发表于自然语言处理与计算语言学领域国际顶级学术会议Annual Meeting of the Association for Computational Linguistics（ACL 2025）,博士研究生孙林壮等为第一作者。",
+          "en": "The paper, MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification, was published at the Annual Meeting of the Association for Computational Linguistics (ACL 2025). PhD student Linzhuang Sun is among the first authors."
         },
         "image": null,
         "caption": null
@@ -416,35 +686,120 @@
   },
   {
     "id": "text-to-diagram-2025",
-    "date": "2025-06-11",
+    "date": "2025-07-16",
     "title": {
-      "zh": "文本到结构化图示生成与编辑研究发表于 CVPR 2025",
-      "en": "Text-to-diagram generation and editing at CVPR 2025"
+      "zh": "DiagramAgent：文本到结构化图示的生成、编辑与评测",
+      "en": "DiagramAgent: generating, editing, and evaluating structured diagrams from text"
     },
     "summary": {
-      "zh": "构建文本到图示生成与编辑的基准和框架。",
-      "en": "A benchmark and framework for text-to-diagram generation and editing."
+      "zh": "发表于 CVPR 2025，DiagramGenBenchmark 与四智能体框架支持八类图示的生成、编码和编辑。",
+      "en": "Published at CVPR 2025, DiagramGenBenchmark and a four-agent framework support generation, coding, and editing across eight diagram types."
     },
     "venue": "CVPR 2025",
     "category": {
-      "zh": "学术交流",
-      "en": "Conference"
+      "zh": "科研进展",
+      "en": "Research update"
     },
     "paperId": "paper-15",
     "paperTitle": null,
-    "image": "images/news/legacy/news-cvpr.webp",
-    "sourceFolder": null,
-    "source": "https://dracoxa.github.io/event/cvpr/",
+    "image": "images/news/text-to-diagram-2025/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2025-07-16",
+    "source": null,
     "byline": null,
     "sections": [
       {
         "heading": null,
         "body": {
-          "zh": "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing 发表于 CVPR 2025。该工作研究如何将文本描述转化为结构化图示，并支持图示编辑。会议于 2025 年 6 月 11—15 日在美国纳什维尔举行。",
-          "en": "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing appeared at CVPR 2025. It studies how text descriptions can be transformed into structured diagrams and edited. The conference was held in Nashville, USA, on June 11–15, 2025."
+          "zh": "团队针对将自然语言描述转化为结构化图表（Text-to-Diagram）这一新兴任务开展研究。现有的文本生成图像（Text-to-Image）方法在生成流程图、模型架构图等结构化内容时，往往缺乏逻辑连贯性；而文本生成代码（Text-to-Code）方法虽然逻辑严密，但在处理复杂视觉结构和后续编辑修改方面存在局限性。",
+          "en": "The team studies Text-to-Diagram, the task of transforming natural-language descriptions into structured diagrams. Text-to-image methods often lack logical coherence when generating flowcharts and model architectures. Text-to-code methods provide precise logic but have limitations in representing complex visual structures and supporting later edits."
         },
         "image": null,
         "caption": null
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "为了解决这些痛点，团队首先构建了DiagramGenBenchmark，这是针对结构化图表生成与编辑的综合评估基准，涵盖了流程图、模型架构图、思维导图等八种不同类型的图表，并包含生成、编码与编辑三大核心任务。此外，团队提出了创新框架DiagramAgent，该框架包含规划（Plan）、代码（Code）、检查（Check）及图表转代码（Diagram-to-Code）四个核心智能体模块。DiagramAgent通过模拟人类的规划、编码、检查和调试流程，实现了对复杂图表的高精度生成与灵活编辑。实验结果表明，DiagramAgent在准确性、结构连贯性和可修改性方面显著优于GPT-4o、Qwen等现有基线模型，其在生成任务中的Pass@1指标达到58.15，为该领域的未来研究提供了强有力的工具和基准。",
+          "en": "To address these challenges, the team introduces DiagramGenBenchmark, a comprehensive benchmark covering eight diagram types, including flowcharts, model architectures, and mind maps, with generation, coding, and editing tasks. The proposed DiagramAgent framework comprises four modules: Plan, Code, Check, and Diagram-to-Code. By organizing planning, coding, checking, and debugging, it supports accurate generation and flexible editing of complex diagrams. Experiments report stronger accuracy, structural coherence, and editability than baselines including GPT-4o and Qwen, with a generation Pass@1 score of 58.15."
+        },
+        "image": "images/news/text-to-diagram-2025/figure-1.webp",
+        "caption": {
+          "zh": "DiagramAgent的工作流程",
+          "en": "DiagramAgent workflow"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "该成果以From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing为题发表于计算机视觉与模式识别领域国际顶级学术会议IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2025），博士研究生魏靖烜等为第一作者，于碧辉研究员等为通讯作者。",
+          "en": "The paper, From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing, was published at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025). PhD student Jingxuan Wei is among the first authors, and research professor Bihui Yu is among the corresponding authors."
+        },
+        "image": null,
+        "caption": null
+      }
+    ]
+  },
+  {
+    "id": "tracer-2026",
+    "date": "2025-05-28",
+    "title": {
+      "zh": "TRACER：面向多模态工具智能体的可验证生成式溯源",
+      "en": "TRACER: verifiable generative provenance for multimodal tool-using agents"
+    },
+    "summary": {
+      "zh": "合作论文获 NeurIPS 录用，提出逐句溯源框架 TRACER 与 TRACEBENCH，连接工具观察、答案证据与强化学习。",
+      "en": "Accepted at NeurIPS, TRACER and TRACEBENCH connect sentence-level evidence, tool observations, and reinforcement learning."
+    },
+    "venue": "NeurIPS",
+    "category": {
+      "zh": "科研进展",
+      "en": "Research update"
+    },
+    "paperId": "paper-10",
+    "paperTitle": null,
+    "image": "images/news/tracer-2026/figure-1.webp",
+    "sourceFolder": "materials/incoming/2026-11-02/images/news/2025-05-28",
+    "source": null,
+    "byline": {
+      "zh": "于碧辉研究员为第一作者。",
+      "en": "Bihui Yu is the first author."
+    },
+    "sections": [
+      {
+        "heading": null,
+        "body": {
+          "zh": "近日，实验室合作完成的论文被NeurIPS录用。论文聚焦多模态工具智能体的“溯源鸿沟”：现有系统通常只给出工具调用轨迹和最终答案，却不说明答案中的每句话由哪次工具观察、哪段证据支持，导致工具使用难以验证和优化。",
+          "en": "Recently, a collaborative paper from the lab was accepted at NeurIPS. The work addresses the provenance gap in multimodal tool-using agents: existing systems often provide a tool trace and final answer without identifying which observation or evidence supports each sentence, making tool use difficult to verify and optimize."
+        },
+        "image": "images/news/tracer-2026/figure-1.webp",
+        "caption": {
+          "zh": "图1. Overview of the provenance gap in multi-tool reasoning",
+          "en": "The provenance gap in multi-tool reasoning"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "为此，团队提出TRACER，在生成每个答案句时同步输出结构化溯源记录，标明支持该句的工具轮次、证据单元及语义关系（直引、压缩、推理），并通过模式检查、轮次对齐、来源真实性和关系合理性验证。验证后的溯源进一步转化为强化学习中的可追溯性约束和局部信用，用于区分真正贡献证据的工具调用与冗余探索。团队还构建了TRACEBENCH基准，从粗粒度多模态工具轨迹重建句子级溯源，覆盖7类工具，保留14,183条高质量轨迹。",
+          "en": "The team proposes TRACER, which generates a structured provenance record alongside each answer sentence. Each record identifies the supporting tool round, evidence unit, and semantic relation: quotation, compression, or inference. Schema checks, round alignment, source authenticity, and relation validity are used to verify the records. Verified provenance then provides traceability constraints and local credit for reinforcement learning, distinguishing evidence-producing calls from redundant exploration. The team also introduces TRACEBENCH, which reconstructs sentence-level provenance from coarse multimodal tool traces across seven tool categories, retaining 14,183 high-quality trajectories."
+        },
+        "image": "images/news/tracer-2026/figure-2.webp",
+        "caption": {
+          "zh": "图2. Illustration of TRACER",
+          "en": "TRACER framework"
+        }
+      },
+      {
+        "heading": null,
+        "body": {
+          "zh": "实验显示，单纯增加工具往往引入噪声。基于Qwen3-VL-8B-Instruct的TRACER-RL达到78.23%答案准确率和95.72%摘要准确率，较最强闭源工具增强基线高23.80个百分点；相比工具监督微调，测试集工具调用从4,949次降至3,486次，减少29.56%。结果表明，可靠的多模态工具推理关键不在“调用更多工具”，而在“有据可查地使用观察”。",
+          "en": "Experiments show that adding tools alone can introduce noise. Based on Qwen3-VL-8B-Instruct, TRACER-RL achieves 78.23% answer accuracy and 95.72% summary accuracy, exceeding the strongest closed-source tool-augmented baseline by 23.80 percentage points in answer accuracy. Compared with tool-supervised fine-tuning, test-set tool calls fall from 4,949 to 3,486, a reduction of 29.56%. These results support using tool observations with verifiable evidence rather than simply making more calls."
+        },
+        "image": "images/news/tracer-2026/figure-3.webp",
+        "caption": {
+          "zh": "图3. Overview of the TRACE-BENCH construction pipeline",
+          "en": "TRACEBENCH construction pipeline"
+        }
       }
     ]
   }

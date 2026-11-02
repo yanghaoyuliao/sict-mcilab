@@ -18,15 +18,13 @@ const importData = async (file) => {
     `data:text/javascript;base64,${Buffer.from(outputText).toString("base64")}`
   );
 };
-const [members, news, papers, manifest, { research }, { paperNotesEn }] =
-  await Promise.all([
-    readJson("src/data/members.json"),
-    readJson("src/data/news.json"),
-    readJson("src/data/publications.json"),
-    readJson("materials/asset-manifest.json"),
-    importData("src/data/research.ts"),
-    importData("src/data/paper-notes.ts"),
-  ]);
+const [members, news, papers, manifest, { research }] = await Promise.all([
+  readJson("src/data/members.json"),
+  readJson("src/data/news.json"),
+  readJson("src/data/publications.json"),
+  readJson("materials/asset-manifest.json"),
+  importData("src/data/research.ts"),
+]);
 const errors = [];
 const check = (condition, message) => {
   if (!condition) errors.push(message);
@@ -79,7 +77,7 @@ uniqueIds(research, "research");
 const paperIds = new Set(papers.map((p) => p.id));
 for (const person of members) {
   check(
-    ["faculty", "phd", "masters"].includes(person.group),
+    ["faculty", "secretary", "phd", "masters"].includes(person.group),
     `${person.id}: invalid member group`,
   );
   check(
@@ -123,7 +121,7 @@ for (const item of news) {
   }
 }
 for (const paper of papers) {
-  check(["A", "B"].includes(paper.ccf), `${paper.id}: invalid CCF tier`);
+  check(["A", "B", null].includes(paper.ccf), `${paper.id}: invalid CCF tier`);
   check(Number.isInteger(paper.year), `${paper.id}: invalid year`);
   check(
     typeof paper.published === "boolean",
@@ -134,9 +132,22 @@ for (const paper of papers) {
     `${paper.id}: incomplete record`,
   );
   check(
-    typeof paperNotesEn[paper.id] === "string",
-    `${paper.id}: missing English source note`,
+    ["已发表", "已录用"].includes(paper.status),
+    `${paper.id}: invalid status`,
   );
+  check(
+    paper.status === (paper.published ? "已发表" : "已录用"),
+    `${paper.id}: inconsistent status`,
+  );
+  check(
+    paper.year >= 2024 && paper.year <= 2026,
+    `${paper.id}: outside three-year window`,
+  );
+  check(
+    new Set(paper.authors).size === paper.authors.length,
+    `${paper.id}: duplicate author`,
+  );
+  webUrl(paper.authorSource, `${paper.id} author source`);
   webUrl(paper.url, paper.id);
 }
 for (const area of research) {

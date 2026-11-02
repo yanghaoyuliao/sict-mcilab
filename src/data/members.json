@@ -42,6 +42,26 @@
     "homepage": null
   },
   {
+    "id": "qi-zhang",
+    "name": "Qi Zhang",
+    "nameZh": "张祺",
+    "group": "secretary",
+    "role": {
+      "zh": "实验室秘书",
+      "en": "Lab secretary"
+    },
+    "interests": {
+      "zh": "行政管理与科研服务",
+      "en": "Administration and research support"
+    },
+    "bio": {
+      "zh": "负责实验室日常行政、科研项目辅助、经费报销、会议接待、档案与采购管理等事务。工作细致耐心，具备良好的组织协调和沟通能力，致力于为实验室科研工作提供规范、高效的服务保障。",
+      "en": "Supports the lab’s daily administration, research projects, expense reimbursement, meetings and visitors, records, and procurement. With a careful, patient approach and strong coordination and communication skills, she provides organized, efficient support for the lab’s research."
+    },
+    "image": "images/people/qi-zhang.webp",
+    "homepage": null
+  },
+  {
     "id": "jingxuan-wei",
     "name": "Jingxuan Wei",
     "nameZh": "魏靖烜",
@@ -74,68 +94,36 @@
     "homepage": "https://dracoxa.github.io/author/linzhuang-sun/"
   },
   {
-    "id": "sibo-zhang",
-    "name": "Sibo Zhang",
-    "nameZh": "张思博",
-    "group": "masters",
+    "id": "xinyue-wang",
+    "name": "Xinyue Wang",
+    "nameZh": "王杏月",
+    "group": "phd",
     "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
+      "zh": "博士研究生",
+      "en": "PhD student"
     },
     "interests": {
-      "zh": "类脑智能",
-      "en": "Brain-inspired intelligence"
+      "zh": "多模态大模型、AI4S",
+      "en": "Multimodal large language models, AI for science"
     },
-    "image": "images/people/sibo-zhang.webp",
-    "homepage": "https://dracoxa.github.io/author/sibo-zhang/"
+    "image": "images/people/xinyue-wang.webp",
+    "homepage": null
   },
   {
-    "id": "zhengbing-yao",
-    "name": "Zhengbing Yao",
-    "nameZh": "姚征兵",
-    "group": "masters",
+    "id": "hexuan-jin",
+    "name": "Hexuan Jin",
+    "nameZh": "靳赫烜",
+    "group": "phd",
     "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
+      "zh": "博士研究生",
+      "en": "PhD student"
     },
     "interests": {
-      "zh": "多模态图像合成",
-      "en": "Multimodal image synthesis"
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
     },
-    "image": "images/people/zhengbing-yao.webp",
-    "homepage": "https://dracoxa.github.io/author/zhengbing-yao/"
-  },
-  {
-    "id": "gaowei-wu",
-    "name": "Gaowei Wu",
-    "nameZh": "伍高巍",
-    "group": "masters",
-    "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
-    },
-    "interests": {
-      "zh": "智能体、检索增强生成",
-      "en": "Agents, retrieval-augmented generation"
-    },
-    "image": null,
-    "homepage": "https://dracoxa.github.io/author/gaowei-wu/"
-  },
-  {
-    "id": "mingfei-jin",
-    "name": "Mingfei Jin",
-    "nameZh": "金明飞",
-    "group": "masters",
-    "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
-    },
-    "interests": {
-      "zh": "大语言模型、强化学习、推理链",
-      "en": "Large language models, reinforcement learning, reasoning chains"
-    },
-    "image": null,
-    "homepage": "https://dracoxa.github.io/author/mingfei-jin/"
+    "image": "images/people/hexuan-jin.webp",
+    "homepage": null
   },
   {
     "id": "caijun-jia",
@@ -154,38 +142,6 @@
     "homepage": "https://dracoxa.github.io/author/caijun-jia/"
   },
   {
-    "id": "dawei-liu",
-    "name": "Dawei Liu",
-    "nameZh": "刘大伟",
-    "group": "masters",
-    "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
-    },
-    "interests": {
-      "zh": "多模态生成、数字人",
-      "en": "Multimodal generation, digital humans"
-    },
-    "image": "images/people/dawei-liu.webp",
-    "homepage": "https://dracoxa.github.io/author/dawei-liu/"
-  },
-  {
-    "id": "qi-chen",
-    "name": "Qi Chen",
-    "nameZh": "陈奇",
-    "group": "masters",
-    "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
-    },
-    "interests": {
-      "zh": "多模态大模型、智能体",
-      "en": "Multimodal large language models, agents"
-    },
-    "image": null,
-    "homepage": "https://dracoxa.github.io/author/qi-chen/"
-  },
-  {
     "id": "honghao-he",
     "name": "Honghao He",
     "nameZh": "贺宏浩",
@@ -198,7 +154,7 @@
       "zh": "多模态大模型、AI4S",
       "en": "Multimodal large language models, AI for science"
     },
-    "image": null,
+    "image": "images/people/honghao-he.webp",
     "homepage": null
   },
   {
@@ -211,10 +167,10 @@
       "en": "Master’s student"
     },
     "interests": {
-      "zh": "多模态大模型",
-      "en": "Multimodal large language models"
+      "zh": "状态保持、世界模型",
+      "en": "State persistence, world models"
     },
-    "image": null,
+    "image": "images/people/zheng-sun.webp",
     "homepage": null
   },
   {
@@ -230,7 +186,7 @@
       "zh": "多模态大模型",
       "en": "Multimodal large language models"
     },
-    "image": null,
+    "image": "images/people/haiguang-wang.webp",
     "homepage": null
   },
   {
@@ -246,7 +202,7 @@
       "zh": "多模态大模型、强化学习",
       "en": "Multimodal large language models, reinforcement learning"
     },
-    "image": null,
+    "image": "images/people/xi-bai.webp",
     "homepage": null
   },
   {
@@ -259,10 +215,78 @@
       "en": "Master’s student"
     },
     "interests": {
-      "zh": "多模态大模型",
-      "en": "Multimodal large language models"
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
     },
-    "image": null,
+    "image": "images/people/zhibiao-wang.webp",
+    "homepage": null
+  },
+  {
+    "id": "zhuoya-yao",
+    "name": "Zhuoya Yao",
+    "nameZh": "姚卓娅",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "检索增强生成",
+      "en": "Retrieval-augmented generation"
+    },
+    "image": "images/people/zhuoya-yao.webp",
+    "homepage": null
+  },
+  {
+    "id": "xunke-zhao",
+    "name": "Xunke Zhao",
+    "nameZh": "赵迅可",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "知识图谱",
+      "en": "Knowledge graphs"
+    },
+    "image": "images/people/xunke-zhao.webp",
+    "homepage": null
+  },
+  {
+    "id": "sizhe-qiu",
+    "name": "Sizhe Qiu",
+    "nameZh": "邱斯哲",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态推理、AI for education 应用",
+      "en": "Multimodal reasoning, AI for education"
+    },
+    "image": "images/people/sizhe-qiu.webp",
+    "homepage": null,
+    "bio": {
+      "zh": "本科毕业于华南师范大学，硕士就读于中国科学院大学，沈阳计算技术研究所。研究方向为多模态推理，关注于 AI for education 应用。已有论文发表于 ACL MM 会议、JCST 期刊等。",
+      "en": "Received a bachelor’s degree from South China Normal University and is pursuing a master’s degree at the University of Chinese Academy of Sciences, Shenyang Institute of Computing Technology. Research focuses on multimodal reasoning and AI for education applications, with publications at ACL MM and in JCST, among other venues."
+    }
+  },
+  {
+    "id": "jie-dong",
+    "name": "Jie Dong",
+    "nameZh": "董洁",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "多模态大模型、智能体",
+      "en": "Multimodal large language models, agents"
+    },
+    "image": "images/people/jie-dong.webp",
     "homepage": null
   },
   {
@@ -291,10 +315,10 @@
       "en": "Master’s student"
     },
     "interests": {
-      "zh": "多模态大模型、智能体",
-      "en": "Multimodal large language models, agents"
+      "zh": "多模态大模型、世界模型",
+      "en": "Multimodal large language models, world models"
     },
-    "image": null,
+    "image": "images/people/yuhang-xu.webp",
     "homepage": null
   },
   {
@@ -311,22 +335,6 @@
       "en": "Multimodal large language models, agents"
     },
     "image": "images/people/xinglong-xu.webp",
-    "homepage": null
-  },
-  {
-    "id": "jie-dong",
-    "name": "Jie Dong",
-    "nameZh": "董洁",
-    "group": "masters",
-    "role": {
-      "zh": "硕士研究生",
-      "en": "Master’s student"
-    },
-    "interests": {
-      "zh": "多模态大模型、智能体",
-      "en": "Multimodal large language models, agents"
-    },
-    "image": null,
     "homepage": null
   },
   {
@@ -348,7 +356,7 @@
   {
     "id": "lejia-wang",
     "name": "Lejia Wang",
-    "nameZh": null,
+    "nameZh": "王乐佳",
     "group": "masters",
     "role": {
       "zh": "硕士研究生",
@@ -394,35 +402,67 @@
     "homepage": null
   },
   {
-    "id": "xinyue-wang",
-    "name": "Xinyue Wang",
-    "nameZh": "王杏月",
-    "group": "phd",
+    "id": "qi-sun",
+    "name": "Qi Sun",
+    "nameZh": "孙奇",
+    "group": "masters",
     "role": {
-      "zh": "博士研究生",
-      "en": "PhD student"
+      "zh": "硕士研究生",
+      "en": "Master’s student"
     },
     "interests": {
-      "zh": "多模态大模型、AI4S",
-      "en": "Multimodal large language models, AI for science"
+      "zh": "计算机应用技术",
+      "en": "Computer application technology"
     },
-    "image": "images/people/xinyue-wang.webp",
+    "image": "images/people/qi-sun.webp",
     "homepage": null
   },
   {
-    "id": "hexuan-jin",
-    "name": "Hexuan Jin",
-    "nameZh": "靳赫煊",
-    "group": "phd",
+    "id": "yiyang-zhao",
+    "name": "Yiyang Zhao",
+    "nameZh": "赵艺阳",
+    "group": "masters",
     "role": {
-      "zh": "博士研究生",
-      "en": "PhD student"
+      "zh": "硕士研究生",
+      "en": "Master’s student"
     },
     "interests": {
-      "zh": "多模态大模型、智能体",
-      "en": "Multimodal large language models, agents"
+      "zh": "计算机技术",
+      "en": "Computer technology"
     },
-    "image": null,
+    "image": "images/people/yiyang-zhao.webp",
+    "homepage": null
+  },
+  {
+    "id": "xiaoyu-liu",
+    "name": "Xiaoyu Liu",
+    "nameZh": "刘笑语",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "计算机应用技术",
+      "en": "Computer application technology"
+    },
+    "image": "images/people/xiaoyu-liu.webp",
+    "homepage": null
+  },
+  {
+    "id": "deming-zhou",
+    "name": "Deming Zhou",
+    "nameZh": "周德铭",
+    "group": "masters",
+    "role": {
+      "zh": "硕士研究生",
+      "en": "Master’s student"
+    },
+    "interests": {
+      "zh": "计算机应用技术",
+      "en": "Computer application technology"
+    },
+    "image": "images/people/deming-zhou.webp",
     "homepage": null
   }
 ]

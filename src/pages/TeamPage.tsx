@@ -38,6 +38,7 @@ export default function TeamPage() {
   const [selected, setSelected] = useState<Member | null>(null);
   const groups = [
     { id: "faculty", label: t("教师", "Faculty") },
+    { id: "secretary", label: t("实验室秘书", "Lab secretary") },
     { id: "phd", label: t("博士研究生", "PhD students") },
     { id: "masters", label: t("硕士研究生", "Master’s students") },
   ];
@@ -48,18 +49,18 @@ export default function TeamPage() {
   return (
     <>
       <PageHeading
-        eyebrow="People"
-        title={t("团队成员", "People")}
+        eyebrow="Members"
+        title={t("团队成员", "Members")}
         description={t(
-          "教师、博士研究生与硕士研究生。",
-          "Faculty, doctoral students, and master’s students.",
+          "教师、实验室秘书、博士研究生与硕士研究生。",
+          "Faculty, lab secretary, doctoral students, and master’s students.",
         )}
       />
       <div className="container page-content">
         <div
           className="filter-tabs"
           role="group"
-          aria-label={t("成员分类", "Filter people")}
+          aria-label={t("成员分类", "Filter members")}
         >
           {[{ id: "all", label: t("全部成员", "All members") }, ...groups].map(
             (group) => (
@@ -93,14 +94,16 @@ export default function TeamPage() {
               </h2>
               <div
                 className={
-                  group.id === "faculty" ? "faculty-list" : "people-grid"
+                  ["faculty", "secretary"].includes(group.id)
+                    ? "faculty-list"
+                    : "people-grid"
                 }
               >
                 {members
                   .filter((p) => p.group === group.id)
                   .map((person) => (
                     <article
-                      className={`person${group.id === "faculty" ? " faculty-person" : ""}`}
+                      className={`person${["faculty", "secretary"].includes(group.id) ? " faculty-person" : ""}`}
                       key={person.id}
                     >
                       <button
@@ -121,14 +124,15 @@ export default function TeamPage() {
                             {person.name}
                           </span>
                         )}
-                        {group.id === "faculty" && (
+                        {["faculty", "secretary"].includes(group.id) && (
                           <p className="person-role">{l(person.role)}</p>
                         )}
                         <p>{l(person.interests)}</p>
-                        {group.id === "faculty" && person.bio && (
-                          <p className="faculty-bio">{l(person.bio)}</p>
-                        )}
-                        {group.id === "faculty" && (
+                        {["faculty", "secretary"].includes(group.id) &&
+                          person.bio && (
+                            <p className="faculty-bio">{l(person.bio)}</p>
+                          )}
+                        {["faculty", "secretary"].includes(group.id) && (
                           <div className="inline-links">
                             {person.email && (
                               <a

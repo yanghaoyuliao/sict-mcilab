@@ -1,113 +1,5 @@
 [
   {
-    "source": "materials/incoming/2026-11-01/images/xingyue-wang.webp",
-    "target": "images/people/xinyue-wang.webp",
-    "sourceSha256": "4ab4afca1a9380603ad480e123280c29262911757dec48a7db4836d044cf700c",
-    "publishedBytes": 57321
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/linzhuang-sun.webp",
-    "target": "images/people/linzhuang-sun.webp",
-    "sourceSha256": "2e87c228b178b47ba8bb89d763cb01ed01cb5cd33c0aefdd8001ec207ffa826e",
-    "publishedBytes": 21188
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/news-acmmm.webp",
-    "target": "images/news/legacy/news-acmmm.webp",
-    "sourceSha256": "700c2897aa0146e0bfd5a53c54114361d2e81899176829e5e6034cbf2dc1ad25",
-    "publishedBytes": 56828
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/lejia-wang.webp",
-    "target": "images/people/lejia-wang.webp",
-    "sourceSha256": "5044c25259b03d9987152ab0cf4ea6bba1329febb974687e7aefe0163d71aef1",
-    "publishedBytes": 149003
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/news-acl.webp",
-    "target": "images/news/legacy/news-acl.webp",
-    "sourceSha256": "33fa725effc0ad11a56f66dda04528694c11d8719c68a1dd873095e0ebee0971",
-    "publishedBytes": 147426
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/enchao-li.webp",
-    "target": "images/people/enchao-li.webp",
-    "sourceSha256": "4924fd264212016387ec9f6050d576117992ca9cbaeea4c69e307b4dd979407f",
-    "publishedBytes": 23147
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/xinping-sun.webp",
-    "target": "images/people/xinping-sun.webp",
-    "sourceSha256": "6a298350f712bb35a5b8060940a742d86037960d1354dae9177bea6eccdba0ea",
-    "publishedBytes": 3293432
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/junjie-jiang.webp",
-    "target": "images/people/junjie-jiang.webp",
-    "sourceSha256": "64caf52f057fddd0374a294ab66afe4285ec2ba2aa7bbc3bf8fec005ec5540c7",
-    "publishedBytes": 43455
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/dawei-liu.webp",
-    "target": "images/people/dawei-liu.webp",
-    "sourceSha256": "0b88c5765e2b9ebca64bacc9e5a67bcf3a3aeb646e5538db8d131936c913f658",
-    "publishedBytes": 11930
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/lab-group.webp",
-    "target": "images/lab/group.webp",
-    "sourceSha256": "c55026ab5fec67dca8cb45397a173320612d46c6872b66f09fea4e8e83347261",
-    "publishedBytes": 231438
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/sibo-zhang.webp",
-    "target": "images/people/sibo-zhang.webp",
-    "sourceSha256": "001142c5c649b6043af1006500d0649d4d2e8b6ac2afa50b3fc397de1ac08aac",
-    "publishedBytes": 18068
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/news-cvpr.webp",
-    "target": "images/news/legacy/news-cvpr.webp",
-    "sourceSha256": "ccc761d755a2a922c5de67560a439e858013b671eb39582d92c2810646ae0e50",
-    "publishedBytes": 119514
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/caijun-jia.webp",
-    "target": "images/people/caijun-jia.webp",
-    "sourceSha256": "31c9ec067a0bf4bc22263e2ff8a6e010bb4b6705a1a845db83ed6a93850c5c58",
-    "publishedBytes": 9426
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/zhengbing-yao.webp",
-    "target": "images/people/zhengbing-yao.webp",
-    "sourceSha256": "87d1e1db62f61fb5c69379d4a18513206fe1ac8a01b6104249509bbcf1d6e8ce",
-    "publishedBytes": 13692
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/jingxuan-wei.webp",
-    "target": "images/people/jingxuan-wei.webp",
-    "sourceSha256": "f7e73e71191e5b3dd844738cf06062716f51e872b89e5762a37ac82b35233139",
-    "publishedBytes": 13572
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/yanghaoyu-liao.webp",
-    "target": "images/people/yanghaoyu-liao.webp",
-    "sourceSha256": "f6b4b6ad16d3c7b17508f65ed2d780661e2fdff6b50a8f6922a4bad86bd85665",
-    "publishedBytes": 140063
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/bihui-yu.webp",
-    "target": "images/people/bihui-yu.webp",
-    "sourceSha256": "64a9a9232037f3cfbbd723d8c3034de2282cac56a5270edf50b46e59286fc5d3",
-    "publishedBytes": 12592
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/xinglong-xu.webp",
-    "target": "images/people/xinglong-xu.webp",
-    "sourceSha256": "d0b2b5adb1c363ba099fe791abcc15d58f867b0d919e8c26c74eb19e11207d24",
-    "publishedBytes": 134477
-  },
-  {
     "source": "materials/incoming/2026-11-01/news/2026-03-05/图1. 迈向生成推理的范式转变.png",
     "target": "images/news/ggbench-2026/figure-1.webp",
     "sourceSha256": "14f177af445a29877b4f2907e11d4208d9b94e98ac1b8a73576ac525447c89e8",
@@ -178,5 +70,287 @@
     "target": "images/institutions/sict.webp",
     "sourceSha256": "42db979990d549bb0727db799e8d909b501d5e3e5906f7fe4165163026a0a444",
     "publishedBytes": 51845
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/bihui-yu.webp",
+    "target": "images/people/bihui-yu.webp",
+    "sourceSha256": "64a9a9232037f3cfbbd723d8c3034de2282cac56a5270edf50b46e59286fc5d3",
+    "publishedBytes": 12592
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/qi-zhang.webp",
+    "target": "images/people/qi-zhang.webp",
+    "sourceSha256": "001d9ab7e479e66973043d2d416fe0d89046349426403b14cae253692d68aa62",
+    "publishedBytes": 216327
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/jingxuan-wei.webp",
+    "target": "images/people/jingxuan-wei.webp",
+    "sourceSha256": "f7e73e71191e5b3dd844738cf06062716f51e872b89e5762a37ac82b35233139",
+    "publishedBytes": 13572
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/linzhuang-sun.webp",
+    "target": "images/people/linzhuang-sun.webp",
+    "sourceSha256": "2e87c228b178b47ba8bb89d763cb01ed01cb5cd33c0aefdd8001ec207ffa826e",
+    "publishedBytes": 21188
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xinyue-wang.webp",
+    "target": "images/people/xinyue-wang.webp",
+    "sourceSha256": "4ab4afca1a9380603ad480e123280c29262911757dec48a7db4836d044cf700c",
+    "publishedBytes": 57321
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/hexuan-jin.webp",
+    "target": "images/people/hexuan-jin.webp",
+    "sourceSha256": "7162837994e3201f3902691f9f7ee706c720f6c6b19111f885c0512f0a7efda1",
+    "publishedBytes": 2046153
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/caijun-jia.webp",
+    "target": "images/people/caijun-jia.webp",
+    "sourceSha256": "31c9ec067a0bf4bc22263e2ff8a6e010bb4b6705a1a845db83ed6a93850c5c58",
+    "publishedBytes": 9426
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/honghao-he.webp",
+    "target": "images/people/honghao-he.webp",
+    "sourceSha256": "dd1660bad0498e690e324ce81ed4c75fb86beb9ea66f5c7a4bc1f088dec938ef",
+    "publishedBytes": 153537
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/zheng-sun.webp",
+    "target": "images/people/zheng-sun.webp",
+    "sourceSha256": "009c9224166cddd19d4589f591346b753c7e38ad4cc6dcf3b31ee725013cf70d",
+    "publishedBytes": 212309
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/haiguang-wang.webp",
+    "target": "images/people/haiguang-wang.webp",
+    "sourceSha256": "74a5e44f4110b21a2c54fcc40e846b97eca53b4ac5ac0976f86dc35bbb087497",
+    "publishedBytes": 18846
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/bai-xi.webp",
+    "target": "images/people/xi-bai.webp",
+    "sourceSha256": "65a9673e3215ff43de3cc54c2c5b9b05afe35fc9f4abee7869566439a979e7a5",
+    "publishedBytes": 538707
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/zhibiao-wang.webp",
+    "target": "images/people/zhibiao-wang.webp",
+    "sourceSha256": "e6ffa03b3b640450e22d6934eea01b3c3ecfe73aa25532f597d14bf2bc40d47b",
+    "publishedBytes": 185489
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/zhuoya-yao.webp",
+    "target": "images/people/zhuoya-yao.webp",
+    "sourceSha256": "562442a5516c0827df6a4bfaef94c2cf2c9b834336578970431ba0943d840990",
+    "publishedBytes": 851146
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xunke-zhao.webp",
+    "target": "images/people/xunke-zhao.webp",
+    "sourceSha256": "e323d63faa252de62c3643eda4a037744505f0fcb087169e0aa3322a4c4aa1de",
+    "publishedBytes": 1622132
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/sizhe-qiu.webp",
+    "target": "images/people/sizhe-qiu.webp",
+    "sourceSha256": "ea09559ec279dfe21b3152bb7356e0495416b760f7ace1c93919bd92ddd76135",
+    "publishedBytes": 198200
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/jie-dong.webp",
+    "target": "images/people/jie-dong.webp",
+    "sourceSha256": "6f0f3e165162b9bed313887a3858ad0e823138b5bf341242db77e17a242636bc",
+    "publishedBytes": 2032968
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/yanghaoyu-liao.webp",
+    "target": "images/people/yanghaoyu-liao.webp",
+    "sourceSha256": "f6b4b6ad16d3c7b17508f65ed2d780661e2fdff6b50a8f6922a4bad86bd85665",
+    "publishedBytes": 140063
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/yuhang-xu.webp",
+    "target": "images/people/yuhang-xu.webp",
+    "sourceSha256": "bad036529ec2d5cfbb53c8492bab54e763600dbb57cd900a77a5e0e9f0b871f6",
+    "publishedBytes": 3539289
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xinglong-xu.webp",
+    "target": "images/people/xinglong-xu.webp",
+    "sourceSha256": "d0b2b5adb1c363ba099fe791abcc15d58f867b0d919e8c26c74eb19e11207d24",
+    "publishedBytes": 134477
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/junjie-jiang.webp",
+    "target": "images/people/junjie-jiang.webp",
+    "sourceSha256": "64caf52f057fddd0374a294ab66afe4285ec2ba2aa7bbc3bf8fec005ec5540c7",
+    "publishedBytes": 43455
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/lejia-wang.webp",
+    "target": "images/people/lejia-wang.webp",
+    "sourceSha256": "0a742193c729fe5ef9ab5c50711f36c6ba851d398da87aa526add1a795e4be26",
+    "publishedBytes": 490502
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/enchao-li.webp",
+    "target": "images/people/enchao-li.webp",
+    "sourceSha256": "65e89bad6e6ffdff6866cdcc2c451d38219b672ab001ccd4fc2dd93c4146d5df",
+    "publishedBytes": 84516
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xinping-sun.webp",
+    "target": "images/people/xinping-sun.webp",
+    "sourceSha256": "6a298350f712bb35a5b8060940a742d86037960d1354dae9177bea6eccdba0ea",
+    "publishedBytes": 3293432
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/qi-sun.webp",
+    "target": "images/people/qi-sun.webp",
+    "sourceSha256": "6e199da20322fd1d70335c3c9675a702255fa09a4010bb156d5eb6298eda0bf5",
+    "publishedBytes": 268088
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/yiyang-zhao.webp",
+    "target": "images/people/yiyang-zhao.webp",
+    "sourceSha256": "62c16e5c840ea4758890f7437fca8a79ca03ce8d9e6b6155a7c8abf72d2c3292",
+    "publishedBytes": 2489646
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xiaoyu-liu.webp",
+    "target": "images/people/xiaoyu-liu.webp",
+    "sourceSha256": "6293a2051d5d46bab68b3a0729b4218d3d4842538cf1401199427a1b5a91e1e5",
+    "publishedBytes": 522630
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/deming-zhou.webp",
+    "target": "images/people/deming-zhou.webp",
+    "sourceSha256": "71fdda311a8d675770204e94c123c205948b0df55a415433d37f80ed11b7e12a",
+    "publishedBytes": 38428
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/group.webp",
+    "target": "images/lab/group.webp",
+    "sourceSha256": "c55026ab5fec67dca8cb45397a173320612d46c6872b66f09fea4e8e83347261",
+    "publishedBytes": 231438
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/实验室会议图1.webp",
+    "target": "images/lab/lab-meeting.webp",
+    "sourceSha256": "e41ee4d354355cf8e9dc02db65d3f72957cac36de7a2cf76ba2d7eadba4ce9d1",
+    "publishedBytes": 1434555
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/实验室会议图2.webp",
+    "target": "images/lab/discussion.webp",
+    "sourceSha256": "feb2be6b760a49ae260aa14a91d3d6d2302c80352948da519f6bb3ca91c2318a",
+    "publishedBytes": 718899
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/科研协作项目图3.webp",
+    "target": "images/lab/instrument-collaboration.webp",
+    "sourceSha256": "c27e78350c5bc7d3f8a54c4514f922e90c8f367bff416fd727cdfaf4d4fc414b",
+    "publishedBytes": 412551
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/校企合作图1.webp",
+    "target": "images/lab/industry-collaboration.webp",
+    "sourceSha256": "b824a1f8098c59bfb91e4b2e31d4f9793be18626af6d527d0b5f87b1c0ca918e",
+    "publishedBytes": 1204427
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/行业与学术影响力图1.webp",
+    "target": "images/lab/academic-exchange.webp",
+    "sourceSha256": "1084d8b14ac1fed18125fa8c139319b88ef980585f293ed112b9867d4f9dd639",
+    "publishedBytes": 861835
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/毕业合照2.webp",
+    "target": "images/lab/graduation.webp",
+    "sourceSha256": "55a6e3fd1d1b01a87d5e92620dd28b305f03a1f35097edb5f7cf96954afbaa6c",
+    "publishedBytes": 3948620
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/于碧辉老师主持学术分享会.webp",
+    "target": "images/lab/academic-talk.webp",
+    "sourceSha256": "f18a2a17a996ab2b471d1201189e33ec1101e53affb3ae178f0854f8a5e86b41",
+    "publishedBytes": 334242
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-05-28/图1. Overview of the provenance gap in multi-tool reasoning.webp",
+    "target": "images/news/tracer-2026/figure-1.webp",
+    "sourceSha256": "0d41ef8e0b9034c663a318316cf8d05c219c4eab4e39fc0acd9e829d9c47c4c7",
+    "publishedBytes": 469531
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-05-28/图2. Illustration of TRACER.webp",
+    "target": "images/news/tracer-2026/figure-2.webp",
+    "sourceSha256": "4b3501f6f493eb1ef9665d9d8dcf245eff3bccfa94dd228fb1133c3aeda1672a",
+    "publishedBytes": 503308
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-05-28/图3. Overview of the TRACE-BENCH construction pipeline.webp",
+    "target": "images/news/tracer-2026/figure-3.webp",
+    "sourceSha256": "0386a892a0dadd6fb8d120c613df59f1a2a68f7163d7cbc0d8c8d14a263a6905",
+    "publishedBytes": 439835
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-07-16/DiagramAgent的工作流程。.webp",
+    "target": "images/news/text-to-diagram-2025/figure-1.webp",
+    "sourceSha256": "64ff16e4ee996ff0df912de50d72c8e92d0ea2686169c01e8d12195c36dcbdf7",
+    "publishedBytes": 435158
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-11-10/合成MM Verifier数据的管道。.webp",
+    "target": "images/news/mmverify-2025/figure-1.webp",
+    "sourceSha256": "08ca562ca056c668b8816f66072effbf710491d6574245c6a55d4c852a0ef6a6",
+    "publishedBytes": 257616
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-11-20/ResearchPulse将科学论文转化为思维导图和折线图，用于结构化的研究跟踪。.webp",
+    "target": "images/news/researchpulse-2025/figure-1.webp",
+    "sourceSha256": "5f8d348594d7dd4d46507a3ffc01d78ae4bae65d08babe593208c69e895814c9",
+    "publishedBytes": 199759
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-11-20/ResearchPulse管道由三个主要代理组成：计划代理、Mmap代理和Lchart代理。.webp",
+    "target": "images/news/researchpulse-2025/figure-2.webp",
+    "sourceSha256": "558a351677a8f4e4f8bf4dd1fa22ba99c9083cfd415b6a89f4fa0884c5df9e47",
+    "publishedBytes": 395501
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-12-10/图1.当前CQA基准的主要挑战。.webp",
+    "target": "images/news/chartmind-2025/figure-1.webp",
+    "sourceSha256": "58ef69fd652d33e0d26b55734f0b7cd4472482e13c0765f97d2534bfa73bb340",
+    "publishedBytes": 507531
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-12-10/图2.ChartMind中包含的七种图表类型和七个推理任务的概述。.webp",
+    "target": "images/news/chartmind-2025/figure-2.webp",
+    "sourceSha256": "28885da65691512daaffaba8139c6292a9bd8e3899c0a50fabb20ed6e41027a9",
+    "publishedBytes": 291967
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2026-03-01/图1. PAGER概述。.webp",
+    "target": "images/news/pager-2026/figure-1.webp",
+    "sourceSha256": "1fec76bd4ab5e51ebabfd855739852c5dc87e0dd82c01301ab8b63d2b4db5e3b",
+    "publishedBytes": 350173
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2026-03-01/图2. PAGE Bench数据集构建。.webp",
+    "target": "images/news/pager-2026/figure-2.webp",
+    "sourceSha256": "6c1801a5109d9668b21188ec1a4b7f16e70dab322a1da817469514ebbc4f32af",
+    "publishedBytes": 315059
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2026-05-27/于碧辉研究员作报告.webp",
+    "target": "images/news/ai4s-qingdao-2026/figure-1.webp",
+    "sourceSha256": "c2b8c865caf149bfd051464edf8a50e479ebe2274acf3325697d10ad6b44fe4b",
+    "publishedBytes": 207290
   }
 ]

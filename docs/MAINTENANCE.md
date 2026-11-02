@@ -6,7 +6,7 @@
 2. `src/data/` 保存网站显示内容，`public/images/` 保存发布图片。
 3. `dist/` 和 `交付/` 由命令生成，不用来存放原件，也不直接修改。
 
-2026-11-01 前的首版源代码备份在 `archive/2026-11-01-before-revision/`；新增照片与新闻原件保存到 `materials/incoming/2026-11-01/`；旧 Hugo 网站和论文表归入 `materials/reference/`。顶层重复的发布图片已从 `public/images/` 移走，备份仍保留。
+2026-11-02 的本轮原件（照片、7 篇新闻、PPT、XLSX）在 `materials/incoming/2026-11-02/`，从 dist 备份完成后再构建。2026-11-01 前的首版源代码备份在 `archive/2026-11-01-before-revision/`；新增照片与新闻原件保存到 `materials/incoming/2026-11-01/`；旧 Hugo 网站和论文表归入 `materials/reference/`。顶层重复的发布图片已从 `public/images/` 移走，备份仍保留。
 
 ## 增加或修改成员
 
@@ -28,9 +28,9 @@
 }
 ```
 
-`id` 必须唯一；`group` 为 `faculty`、`phd` 或 `masters`。不要根据拼音猜中文名。照片确认后放到 `public/images/people/example-student.webp`，把 `image` 改为 `images/people/example-student.webp`。没有照片保持 `null`，网页会显示英文姓名首字母加浅绿色背景。成员在每个分组内按 JSON 中的顺序显示；分类人数自动计算。
+`id` 必须唯一；`group` 为 `faculty`、`secretary`、`phd` 或 `masters`。不要根据拼音猜中文名。照片确认后放到 `public/images/people/example-student.webp`，把 `image` 改为 `images/people/example-student.webp`。没有照片保持 `null`，网页会显示英文姓名首字母加浅绿色背景。成员在每个分组内按 JSON 中的顺序显示；分类人数自动计算。
 
-教师可增加双语 `bio` 简介和 `email` 邮箱，团队页、详情及联系方式页会自动显示。主要联系邮箱另在 `src/data/site.ts` 的 `email` 中维护，目前为于碧辉老师邮箱；更换时同时核对成员数据，确保首页、页脚和招生邮件收件人与教师信息一致。
+教师和秘书可增加双语 `bio` 简介和 `email` 邮箱，团队页、详情及联系方式页会自动显示。主要联系邮箱另在 `src/data/site.ts` 的 `email` 中维护，目前为于碧辉老师邮箱；更换时同时核对成员数据，确保首页、页脚和招生邮件收件人与教师信息一致。
 
 推荐肖像比例 3:4，确保头像留有边距。网页会裁成同一比例，合照和新闻图片则完整显示。原件始终另存 `materials/incoming/日期/`。
 
@@ -43,7 +43,7 @@
 5. `paperId` 只填论文目录已有 ID；没有则填 `null`，可在 `paperTitle` 放真实论文题名，不要编造原文链接。`sourceFolder` 记录原件目录；`source` 仅用于真实旧站来源 URL。
 6. 预览中检查标题、图文对应、放大图片和英文版。首页自动取最新五条，不用单独编辑。
 
-已有五篇稿件进行了精简编辑和英文翻译；原始措辞均保留在素材目录，可继续校订，不以网页改稿覆盖原件。
+现有十二篇新闻提供了双语正文，新提供的七篇稿件已合并同主题记录并完成编辑和英文翻译；原始措辞均保留在素材目录，可继续校订，不以网页改稿覆盖原件。
 
 ## 批量处理图片
 
@@ -58,7 +58,7 @@
 }
 ```
 
-运行 `python scripts/sync_assets.py`。已有 WebP 原样复制，PNG/JPG 进行方向校正、缩放及 WebP 转换。处理记录写入 `materials/asset-report.json`。清单不是前端运行依赖；如果直接添加了发布图片，也要保留原件和来源说明。
+替换照片时修改现有同 target 条目的 source，不重复追加。运行 `python scripts/sync_assets.py`。已有 WebP 原样复制，PNG/JPG 进行方向校正、缩放及 WebP 转换。处理记录写入 `materials/asset-report.json`。清单不是前端运行依赖；如果直接添加了发布图片，也要保留原件和来源说明。
 
 ## 检查和交付
 
@@ -71,3 +71,17 @@ npm run dev
 在浏览器检查修改的页面及中英文。确认后运行 `npm run package:review`，把 `交付/` 内新版 ZIP 或单 HTML 发给评审者。ZIP 附带截图和反馈模板；脚本会使用当前 `docs/screenshots/`，所以视觉大改后应更新截图。
 
 每次重要改动前建议保存 Git 版本或完整复制备份。不要把原始 Excel、私人未发布文件或整个素材库放入 `public/`；这个目录内的内容会随网站发布。不要覆盖仍在使用的旧站仓库；发布到哪个仓库和域名由实验室确定。
+
+## 维护论文目录
+
+`src/data/publications.json` 是经过整理的正式主数据。窗口为 2024–2026，跨年时同步更新 PublicationsPage、校验脚本和内容说明。
+
+```bash
+python scripts/import_publications.py "新工作簿.xlsx"
+```
+
+脚本兼容“论文总表”和“四人联合总表”，只将候选记录写到 `.qa/imports/`，**不会覆盖网站论文目录**。匹配的题名或源编号保留 existingId；审阅后再手动合并。新论文使用未占用的 paper-NN ID，旧 ID 保持稳定，不按年份重新编号。
+
+合并时核对题名、年份、去重、来源 URL、团队相关作者及原文排序；历史成员署名也保留。`authorSource` 记录核对来源，`venueFull` 只填会议、期刊或预印本平台名。状态为“已发表”或“已录用”，与 published 布尔值对应。未确认 CCF 用 null。预印本按用户确认显示“已发表”、来源为 arXiv/SSRN；不要填写未经确认的会议或期刊。
+
+研究方向论文列表在 research.ts；新闻 paperId、首页精选和成员相关论文均依赖稳定 ID。导入后运行 npm run check，并在页面检查搜索、分类、导出和论文详情。当前出版信息待核项见 CONTENT.md。

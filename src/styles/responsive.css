@@ -43,13 +43,13 @@
     gap: 15px;
   }
   .brand-text strong {
-    font-size: 25px;
+    font-size: 28px;
   }
   :lang(en) .brand-text strong {
-    font-size: 21px;
+    font-size: 23px;
   }
   .brand-text > span {
-    font-size: 10px;
+    font-size: 12px;
   }
   .masthead-tools {
     gap: 15px;
@@ -82,10 +82,10 @@
     grid-template-columns: 1fr 1.15fr;
   }
   .intro-copy h1 {
-    font-size: 26px;
+    font-size: 29px;
   }
   .intro-copy p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .home-columns {
     grid-template-columns: 1.6fr 1fr;
@@ -108,7 +108,7 @@
     height: 112px;
   }
   .news-list h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .contact-layout {
     gap: 35px;
@@ -124,6 +124,17 @@
   }
 }
 @media (max-width: 760px) {
+  .lab-overview,
+  .practice-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .lab-overview h3 {
+    max-width: none;
+  }
+  .lab-gallery {
+    gap: 16px;
+  }
   .home-intro {
     grid-template-columns: 1fr;
     gap: 25px;
@@ -131,13 +142,13 @@
     padding-bottom: 32px;
   }
   .intro-copy h1 {
-    font-size: 29px;
+    font-size: 32px;
   }
   .intro-copy p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .intro-copy .intro-affiliation {
-    font-size: 12px;
+    font-size: 14px;
   }
   .intro-links {
     margin-top: 18px;
@@ -162,7 +173,7 @@
     gap: 21px;
   }
   .featured-paper h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .people-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -176,7 +187,7 @@
     max-height: 300px;
   }
   .research-description h2 {
-    font-size: 25px;
+    font-size: 28px;
   }
   .news-archive article {
     grid-template-columns: 145px minmax(0, 1fr);
@@ -192,13 +203,13 @@
     width: 240px;
   }
   .news-list h2 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .article-content {
     width: calc(100% - 48px);
   }
   .article-header h1 {
-    font-size: 28px;
+    font-size: 31px;
   }
   .join-layout,
   .contact-layout {
@@ -237,6 +248,14 @@
   }
 }
 @media (max-width: 540px) {
+  .lab-gallery,
+  .join-life .lab-gallery {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .lab-section {
+    padding-block: 28px 36px;
+  }
   .container,
   .article-content {
     width: calc(100% - 36px);
@@ -259,26 +278,26 @@
     gap: 10px;
   }
   .wordmark {
-    font-size: 25px;
+    font-size: 28px;
     padding-right: 10px;
     flex-shrink: 0;
   }
   .wordmark > span {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 4px;
   }
   .brand-text {
     gap: 5px;
   }
   .brand-text strong {
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0;
   }
   :lang(en) .brand-text strong {
-    font-size: 16px;
+    font-size: 18px;
   }
   .brand-text > span {
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0;
     max-width: 210px;
     line-height: 1.5;
@@ -287,7 +306,7 @@
     gap: 6px;
   }
   .language-button {
-    font-size: 11px;
+    font-size: 13px;
     min-width: 39px;
   }
   .menu-toggle {
@@ -300,7 +319,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .nav-links > a {
-    font-size: 13px;
+    font-size: 15px;
     min-height: 44px;
   }
   .page-heading {
@@ -308,38 +327,38 @@
   }
   .breadcrumb {
     margin-bottom: 15px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .page-heading h1 {
-    font-size: 28px;
+    font-size: 31px;
   }
   .page-heading > .container > p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .page-content {
     padding-block: 26px 40px;
   }
   .intro-copy h1 {
-    font-size: 27px;
+    font-size: 30px;
   }
   .intro-photo figcaption {
-    font-size: 9px;
+    font-size: 11px;
   }
   .section-heading h2 {
-    font-size: 21px;
+    font-size: 23px;
   }
   .section-heading > a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .compact article {
-    grid-template-columns: 68px minmax(0, 1fr);
+    grid-template-columns: 82px minmax(0, 1fr);
     gap: 12px;
   }
   .news-list h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .news-list time {
-    font-size: 11px;
+    font-size: 13px;
   }
   .featured-paper {
     grid-template-columns: 1fr;
@@ -350,23 +369,23 @@
     height: 180px;
   }
   .featured-paper h3 {
-    font-size: 19px;
+    font-size: 21px;
   }
   .filter-tabs {
     gap: 10px 20px;
   }
   .filter-tabs button {
-    font-size: 12px;
+    font-size: 14px;
   }
   .filter-tabs button > span {
     margin-left: 5px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .people-section {
     margin-top: 30px;
   }
   .group-title {
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 18px;
   }
   .people-grid {
@@ -374,18 +393,21 @@
     gap: 26px 20px;
   }
   .person h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .faculty-person {
-    grid-template-columns: 110px minmax(0, 1fr);
+    grid-template-columns: 1fr;
     align-items: start;
-    gap: 20px;
+    gap: 18px;
+  }
+  .faculty-person .member-portrait {
+    width: 132px;
   }
   .faculty-person h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .faculty-person .person-info > p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .people-contact {
     align-items: flex-start;
@@ -408,21 +430,21 @@
     height: 170px;
   }
   .news-list h2 {
-    font-size: 19px;
+    font-size: 21px;
   }
   .article-content {
     padding-top: 12px;
   }
   .article-header h1 {
-    font-size: 25px;
+    font-size: 28px;
     line-height: 1.6;
   }
   .article-lead,
   .article-body {
-    font-size: 14px;
+    font-size: 16px;
   }
   .article-body h2 {
-    font-size: 21px;
+    font-size: 23px;
   }
   .article-paper {
     padding: 19px;
@@ -436,7 +458,7 @@
   }
   .join-main h2,
   .contact-layout h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
   .join-contact {
     padding: 24px;
@@ -458,14 +480,14 @@
   .export-button {
     min-height: 36px;
     padding: 7px 12px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .heading-stat-row {
     gap: 18px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .heading-stat-row strong {
-    font-size: 22px;
+    font-size: 24px;
     margin-right: 5px;
   }
   .paper-row {
@@ -476,10 +498,10 @@
     display: none;
   }
   .paper-row h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .results-count {
-    font-size: 11px;
+    font-size: 13px;
   }
   .footer-main {
     grid-template-columns: 1fr;
@@ -491,7 +513,7 @@
     gap: 12px 25px;
   }
   .footer-bottom {
-    font-size: 10px;
+    font-size: 12px;
   }
   .dialog-inner {
     padding: 20px;
@@ -500,12 +522,12 @@
     gap: 12px;
   }
   .dialog-heading h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .profile-header {
     align-items: flex-start;
     gap: 18px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .profile-portrait {
     width: 85px;
@@ -514,10 +536,10 @@
     margin-top: 6px;
   }
   .portrait-placeholder > span {
-    font-size: 32px;
+    font-size: 35px;
   }
   .profile-portrait .portrait-placeholder > span {
-    font-size: 26px;
+    font-size: 29px;
   }
 }
 @media (max-width: 360px) {
@@ -525,7 +547,7 @@
     display: none;
   }
   .brand-text strong {
-    font-size: 18px;
+    font-size: 20px;
   }
   .brand-text > span {
     max-width: 180px;

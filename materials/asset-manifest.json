@@ -1,113 +1,5 @@
 [
   {
-    "source": "materials/incoming/2026-11-01/images/xingyue-wang.webp",
-    "target": "images/people/xinyue-wang.webp",
-    "maxWidth": 640,
-    "note": "User confirmed on 2026-11-01: 王杏月 / Xinyue Wang; source filename xingyue-wang."
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/linzhuang-sun.webp",
-    "target": "images/people/linzhuang-sun.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/news-acmmm.webp",
-    "target": "images/news/legacy/news-acmmm.webp",
-    "maxWidth": 1440,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/lejia-wang.webp",
-    "target": "images/people/lejia-wang.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/news-acl.webp",
-    "target": "images/news/legacy/news-acl.webp",
-    "maxWidth": 1440,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/enchao-li.webp",
-    "target": "images/people/enchao-li.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/xinping-sun.webp",
-    "target": "images/people/xinping-sun.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/junjie-jiang.webp",
-    "target": "images/people/junjie-jiang.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/dawei-liu.webp",
-    "target": "images/people/dawei-liu.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/lab-group.webp",
-    "target": "images/lab/group.webp",
-    "maxWidth": 1440,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/sibo-zhang.webp",
-    "target": "images/people/sibo-zhang.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/news-cvpr.webp",
-    "target": "images/news/legacy/news-cvpr.webp",
-    "maxWidth": 1440,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/caijun-jia.webp",
-    "target": "images/people/caijun-jia.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/zhengbing-yao.webp",
-    "target": "images/people/zhengbing-yao.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/jingxuan-wei.webp",
-    "target": "images/people/jingxuan-wei.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/yanghaoyu-liao.webp",
-    "target": "images/people/yanghaoyu-liao.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/bihui-yu.webp",
-    "target": "images/people/bihui-yu.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
-    "source": "materials/incoming/2026-11-01/images/xinglong-xu.webp",
-    "target": "images/people/xinglong-xu.webp",
-    "maxWidth": 640,
-    "note": ""
-  },
-  {
     "source": "materials/incoming/2026-11-01/news/2026-03-05/图1. 迈向生成推理的范式转变.png",
     "target": "images/news/ggbench-2026/figure-1.webp",
     "maxWidth": 1800,
@@ -178,5 +70,287 @@
     "target": "images/institutions/sict.webp",
     "maxWidth": 640,
     "note": "Institution logo supplied by user on 2026-11-01."
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/bihui-yu.webp",
+    "target": "images/people/bihui-yu.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/qi-zhang.webp",
+    "target": "images/people/qi-zhang.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/jingxuan-wei.webp",
+    "target": "images/people/jingxuan-wei.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/linzhuang-sun.webp",
+    "target": "images/people/linzhuang-sun.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xinyue-wang.webp",
+    "target": "images/people/xinyue-wang.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/hexuan-jin.webp",
+    "target": "images/people/hexuan-jin.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/caijun-jia.webp",
+    "target": "images/people/caijun-jia.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/honghao-he.webp",
+    "target": "images/people/honghao-he.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/zheng-sun.webp",
+    "target": "images/people/zheng-sun.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/haiguang-wang.webp",
+    "target": "images/people/haiguang-wang.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/bai-xi.webp",
+    "target": "images/people/xi-bai.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/zhibiao-wang.webp",
+    "target": "images/people/zhibiao-wang.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/zhuoya-yao.webp",
+    "target": "images/people/zhuoya-yao.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xunke-zhao.webp",
+    "target": "images/people/xunke-zhao.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/sizhe-qiu.webp",
+    "target": "images/people/sizhe-qiu.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/jie-dong.webp",
+    "target": "images/people/jie-dong.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/yanghaoyu-liao.webp",
+    "target": "images/people/yanghaoyu-liao.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/yuhang-xu.webp",
+    "target": "images/people/yuhang-xu.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xinglong-xu.webp",
+    "target": "images/people/xinglong-xu.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/junjie-jiang.webp",
+    "target": "images/people/junjie-jiang.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/lejia-wang.webp",
+    "target": "images/people/lejia-wang.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/enchao-li.webp",
+    "target": "images/people/enchao-li.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xinping-sun.webp",
+    "target": "images/people/xinping-sun.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/qi-sun.webp",
+    "target": "images/people/qi-sun.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/yiyang-zhao.webp",
+    "target": "images/people/yiyang-zhao.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/xiaoyu-liu.webp",
+    "target": "images/people/xiaoyu-liu.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/people/deming-zhou.webp",
+    "target": "images/people/deming-zhou.webp",
+    "maxWidth": 640,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/group.webp",
+    "target": "images/lab/group.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/实验室会议图1.webp",
+    "target": "images/lab/lab-meeting.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/实验室会议图2.webp",
+    "target": "images/lab/discussion.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/科研协作项目图3.webp",
+    "target": "images/lab/instrument-collaboration.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/校企合作图1.webp",
+    "target": "images/lab/industry-collaboration.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/行业与学术影响力图1.webp",
+    "target": "images/lab/academic-exchange.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/毕业合照2.webp",
+    "target": "images/lab/graduation.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/lab/于碧辉老师主持学术分享会.webp",
+    "target": "images/lab/academic-talk.webp",
+    "maxWidth": 1600,
+    "note": "User supplied 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-05-28/图1. Overview of the provenance gap in multi-tool reasoning.webp",
+    "target": "images/news/tracer-2026/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-05-28/图2. Illustration of TRACER.webp",
+    "target": "images/news/tracer-2026/figure-2.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-05-28/图3. Overview of the TRACE-BENCH construction pipeline.webp",
+    "target": "images/news/tracer-2026/figure-3.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-07-16/DiagramAgent的工作流程。.webp",
+    "target": "images/news/text-to-diagram-2025/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-11-10/合成MM Verifier数据的管道。.webp",
+    "target": "images/news/mmverify-2025/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-11-20/ResearchPulse将科学论文转化为思维导图和折线图，用于结构化的研究跟踪。.webp",
+    "target": "images/news/researchpulse-2025/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-11-20/ResearchPulse管道由三个主要代理组成：计划代理、Mmap代理和Lchart代理。.webp",
+    "target": "images/news/researchpulse-2025/figure-2.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-12-10/图1.当前CQA基准的主要挑战。.webp",
+    "target": "images/news/chartmind-2025/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2025-12-10/图2.ChartMind中包含的七种图表类型和七个推理任务的概述。.webp",
+    "target": "images/news/chartmind-2025/figure-2.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2026-03-01/图1. PAGER概述。.webp",
+    "target": "images/news/pager-2026/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2026-03-01/图2. PAGE Bench数据集构建。.webp",
+    "target": "images/news/pager-2026/figure-2.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
+  },
+  {
+    "source": "materials/incoming/2026-11-02/images/news/2026-05-27/于碧辉研究员作报告.webp",
+    "target": "images/news/ai4s-qingdao-2026/figure-1.webp",
+    "maxWidth": 1600,
+    "note": "User manuscript and images, 2026-11-02"
   }
 ]

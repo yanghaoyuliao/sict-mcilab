@@ -3,6 +3,7 @@ import { ArrowUpRight, Mail } from "lucide-react";
 import { site } from "../data/site";
 import { useLab } from "../context/LabContext";
 import { PageHeading } from "../components/ui";
+import { asset } from "../lib/assets";
 export default function JoinPage() {
   const { t } = useLab();
   const subject = t(
@@ -97,6 +98,39 @@ export default function JoinPage() {
                 "Undergraduates can email us with their background, availability, and research interests. Academic and industry collaborators can outline the research problem, existing work, and proposed form of collaboration.",
               )}
             </p>
+          </section>
+          <section className="join-life">
+            <h2>{t("团队日常", "Life in the lab")}</h2>
+            <p>
+              {t(
+                "在组会中讨论研究进展，在合作交流中认识不同领域的问题，也共同记录毕业与成长。",
+                "We discuss research progress in lab meetings, learn about problems across fields through collaboration, and celebrate graduations and growth together.",
+              )}
+            </p>
+            <div className="lab-gallery">
+              <figure>
+                <img
+                  src={asset("images/lab/discussion.webp")}
+                  alt={t("团队研究讨论", "Research discussion")}
+                  loading="lazy"
+                  width="640"
+                  height="480"
+                />
+                <figcaption>{t("研究讨论", "Research discussion")}</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={asset("images/lab/graduation.webp")}
+                  alt={t("毕业合影", "Graduation photo")}
+                  loading="lazy"
+                  width="640"
+                  height="480"
+                />
+                <figcaption>
+                  {t("毕业留念", "Celebrating graduation")}
+                </figcaption>
+              </figure>
+            </div>
           </section>
         </div>
         <aside className="join-contact">

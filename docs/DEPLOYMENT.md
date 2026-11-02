@@ -4,14 +4,14 @@
 
 ## 当前状态
 
-2026-11-01 检查结果：
+2026-11-02 检查结果：
 
 - 源码已上传至 <https://github.com/yanghaoyuliao/sict-mcilab>，本地 `main` 跟踪 `origin/main`。
 - 自动发布文件为 `.github/workflows/deploy.yml`，使用 Node.js 22、`npm ci` 和 `npm run build`；构建任务具有读取 Pages 配置的权限，发布任务具有部署权限。
 - GitHub Pages 已启用 GitHub Actions 发布，并绑定 `sict-mcilab.cn`；首次部署成功。
 - DNSPod 已保存两条根域名 A 记录（`185.199.108.153`、`185.199.109.153`）和 `www` 的 CNAME（`yanghaoyuliao.github.io`），已通过权威 DNS 和公共 DNS 查询验证。
 - DNSPod 免费版同主机、同线路、同类型最多支持两条记录，因此当前采用两个 GitHub 官方 IPv4 地址。无需为上线升级解析套餐。
-- <http://sict-mcilab.cn/> 已可访问；HTTPS 证书正在等待 GitHub 签发，签发后启用强制 HTTPS。
+- <http://sict-mcilab.cn/> 已可访问；HTTPS 证书尚未覆盖该域名，Pages 的 https_enforced 仍为 false，待证书签发后启用强制 HTTPS。
 
 ## 1. 首次上传源码
 
@@ -91,11 +91,11 @@ git push
 | ---------------------------- | -------------------------------------------------------------------------------------------- |
 | 首次工作流提示无法获取 Pages | 先在仓库 Settings → Pages 选择 GitHub Actions，再重新运行工作流。                            |
 | 找不到工作流                 | 检查仓库是否包含 `.github/workflows/deploy.yml`，并确认文件已推送到 `main`。                 |
-| 域名打不开                   | 检查四条 A 记录和 Pages 的 Custom domain，等待 DNS 生效；只购买域名还不会产生网站。          |
+| 域名打不开                   | 检查已配置的两条 A 记录和 Pages 的 Custom domain，等待 DNS 生效；只购买域名还不会产生网站。  |
 | DNS 通过但暂时没有 HTTPS     | 等待证书签发，再勾选 Enforce HTTPS；如果一直不可用，按 GitHub 官方文档检查 DNS 和 CAA 记录。 |
 | 默认 github.io 地址自动跳转  | 绑定自定义域名后属于正常行为，以正式域名访问。                                               |
 | 更新后内容仍旧               | 先确认最新工作流成功，再刷新或使用浏览器无痕窗口查看。                                       |
 
 GitHub Pages 的国内访问速度可能波动，可在上线后用学校和手机网络实际检查。
 
-DNS 数值及配置顺序依据 [GitHub 官方自定义域名说明](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)，核对日期为 2026-11-01。
+DNS 数值及配置顺序依据 [GitHub 官方自定义域名说明](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)，核对日期为 2026-11-02。
